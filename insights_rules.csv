@@ -1,0 +1,1001 @@
+rule_id,created_at,updated_at,category_id,category_name,impact_name,impact,likelihood,node_id,tags,playbook_count,reboot_required,publish_date,impacted_systems_count,reports_shown,rule_status,total_risk,hosts_acked_count,rating
+rule_0,2024-06-11T00:00:00,2024-06-26T00:00:00,2,Security,Decreased Security,2,4,9694070,database,1,True,2024-06-29T00:00:00,2,True,enabled,2,5,3
+rule_1,2024-06-27T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,2,6754986,tuning,1,True,2024-06-28T00:00:00,2,True,enabled,2,5,3
+rule_2,2024-06-02T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,3,3660212,hardening,2,False,2024-06-11T00:00:00,5,True,enabled,3,3,2
+rule_3,2024-06-17T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,3,3519521,performance,2,False,2024-06-25T00:00:00,8,True,enabled,1,5,0
+rule_4,2024-06-02T00:00:00,2024-06-12T00:00:00,4,Performance,Best Practice,1,3,8828181,availability,2,False,2024-06-04T00:00:00,8,True,enabled,2,1,2
+rule_5,2024-06-09T00:00:00,2024-06-13T00:00:00,3,Stability,Best Practice,1,2,4767946,logging,3,True,2024-06-09T00:00:00,3,True,enabled,2,0,2
+rule_6,2024-06-14T00:00:00,2024-06-25T00:00:00,1,Availability,Database Performance Loss,2,3,6897949,performance,1,False,2024-06-29T00:00:00,8,True,enabled,1,1,1
+rule_7,2024-06-06T00:00:00,2024-06-19T00:00:00,4,Performance,Best Practice,1,1,2652894,security,0,False,2024-06-25T00:00:00,2,True,enabled,4,4,2
+rule_8,2024-06-02T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,5,2724265,logging,1,False,2024-06-26T00:00:00,8,True,enabled,3,1,2
+rule_9,2024-06-22T00:00:00,2024-06-23T00:00:00,3,Stability,Decreased Security,2,5,2235071,availability,1,True,2024-06-27T00:00:00,9,True,enabled,4,2,0
+rule_10,2024-06-21T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,3,7840841,stability,1,True,2024-06-25T00:00:00,2,True,enabled,4,4,4
+rule_11,2024-06-07T00:00:00,2024-06-14T00:00:00,2,Security,Decreased Security,2,4,3442583,performance,0,False,2024-06-30T00:00:00,1,True,enabled,4,0,4
+rule_12,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,2,2631093,hardening,1,True,2024-06-30T00:00:00,10,True,enabled,3,4,5
+rule_13,2024-06-09T00:00:00,2024-06-12T00:00:00,2,Security,Best Practice,1,2,2653117,tuning,3,True,2024-06-21T00:00:00,8,True,enabled,5,2,2
+rule_14,2024-06-25T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,1,7873299,performance,0,False,2024-06-25T00:00:00,9,True,enabled,5,1,5
+rule_15,2024-06-10T00:00:00,2024-06-20T00:00:00,3,Stability,Decreased Security,2,2,8350294,availability,2,True,2024-06-14T00:00:00,2,True,enabled,3,5,3
+rule_16,2024-06-25T00:00:00,2024-06-25T00:00:00,1,Availability,Decreased Security,2,2,4932484,security,0,False,2024-06-26T00:00:00,3,True,enabled,4,1,1
+rule_17,2024-06-02T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,5,9022133,performance,0,False,2024-06-28T00:00:00,8,True,enabled,4,2,3
+rule_18,2024-06-18T00:00:00,2024-06-20T00:00:00,3,Stability,Database Performance Loss,2,2,5911837,availability,0,False,2024-06-19T00:00:00,4,True,enabled,4,5,3
+rule_19,2024-06-05T00:00:00,2024-06-21T00:00:00,2,Security,Decreased Security,2,5,5359612,performance,0,True,2024-06-05T00:00:00,5,True,enabled,2,5,1
+rule_20,2024-06-23T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,5,1806401,hardening,2,True,2024-06-26T00:00:00,10,True,enabled,1,0,0
+rule_21,2024-06-17T00:00:00,2024-06-20T00:00:00,3,Stability,Database Performance Loss,2,2,4394433,database,0,True,2024-06-25T00:00:00,8,True,enabled,4,5,1
+rule_22,2024-06-07T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,2,2173974,stability,3,True,2024-06-10T00:00:00,3,True,enabled,3,3,2
+rule_23,2024-06-01T00:00:00,2024-06-19T00:00:00,2,Security,Database Performance Loss,2,5,6321755,stability,0,True,2024-06-11T00:00:00,6,True,enabled,2,4,4
+rule_24,2024-06-14T00:00:00,2024-06-20T00:00:00,3,Stability,Best Practice,1,3,1510863,tuning,1,False,2024-06-26T00:00:00,4,True,enabled,4,3,1
+rule_25,2024-06-14T00:00:00,2024-06-15T00:00:00,2,Security,Decreased Security,2,4,8454879,logging,0,True,2024-06-30T00:00:00,4,True,enabled,3,3,0
+rule_26,2024-06-08T00:00:00,2024-06-10T00:00:00,4,Performance,Database Performance Loss,2,1,6383681,availability,0,False,2024-06-20T00:00:00,3,True,enabled,4,1,5
+rule_27,2024-06-12T00:00:00,2024-06-14T00:00:00,3,Stability,Decreased Security,2,3,1137830,database,1,False,2024-06-23T00:00:00,2,True,enabled,4,0,1
+rule_28,2024-06-16T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,4,4386908,database,2,False,2024-06-20T00:00:00,10,True,enabled,5,4,2
+rule_29,2024-06-17T00:00:00,2024-06-24T00:00:00,3,Stability,Decreased Security,2,2,2215917,database,2,True,2024-06-28T00:00:00,10,True,enabled,5,2,4
+rule_30,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,2,4784323,database,0,False,2024-06-30T00:00:00,5,True,enabled,5,4,5
+rule_31,2024-06-12T00:00:00,2024-06-19T00:00:00,2,Security,Database Performance Loss,2,4,7758656,security,1,False,2024-06-14T00:00:00,8,True,enabled,2,0,0
+rule_32,2024-06-22T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,4,7591721,performance,3,True,2024-06-22T00:00:00,1,True,enabled,1,3,0
+rule_33,2024-06-14T00:00:00,2024-06-26T00:00:00,2,Security,Best Practice,1,4,2659079,hardening,3,True,2024-06-27T00:00:00,2,True,enabled,3,3,3
+rule_34,2024-06-13T00:00:00,2024-06-17T00:00:00,1,Availability,Best Practice,1,5,6783792,hardening,2,True,2024-06-26T00:00:00,1,True,enabled,4,4,0
+rule_35,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,3,4448471,availability,2,False,2024-06-30T00:00:00,1,True,enabled,3,1,2
+rule_36,2024-06-11T00:00:00,2024-06-25T00:00:00,3,Stability,Decreased Security,2,3,7894634,database,1,True,2024-06-15T00:00:00,7,True,enabled,1,2,3
+rule_37,2024-06-10T00:00:00,2024-06-11T00:00:00,4,Performance,Decreased Security,2,5,7853481,performance,3,True,2024-06-18T00:00:00,10,True,enabled,2,2,2
+rule_38,2024-06-28T00:00:00,2024-06-29T00:00:00,4,Performance,Decreased Security,2,4,1588577,database,0,False,2024-06-28T00:00:00,4,True,enabled,3,1,0
+rule_39,2024-06-27T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,4,3038665,tuning,2,False,2024-06-27T00:00:00,8,True,enabled,3,2,4
+rule_40,2024-06-17T00:00:00,2024-06-18T00:00:00,3,Stability,Database Performance Loss,2,2,7352646,availability,1,False,2024-06-25T00:00:00,10,True,enabled,3,5,5
+rule_41,2024-06-15T00:00:00,2024-06-20T00:00:00,4,Performance,Database Performance Loss,2,2,3063450,hardening,0,False,2024-06-25T00:00:00,7,True,enabled,2,5,3
+rule_42,2024-06-15T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,1,4688780,logging,3,False,2024-06-16T00:00:00,5,True,enabled,4,3,0
+rule_43,2024-06-27T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,1,2867052,tuning,3,True,2024-06-30T00:00:00,1,True,enabled,2,0,4
+rule_44,2024-06-01T00:00:00,2024-06-23T00:00:00,1,Availability,Decreased Security,2,1,7768781,hardening,3,False,2024-06-09T00:00:00,4,True,enabled,5,1,1
+rule_45,2024-06-27T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,1,3883856,logging,3,True,2024-06-28T00:00:00,9,True,enabled,5,4,5
+rule_46,2024-06-09T00:00:00,2024-06-12T00:00:00,2,Security,Best Practice,1,5,3644099,logging,3,False,2024-06-12T00:00:00,2,True,enabled,3,5,4
+rule_47,2024-06-11T00:00:00,2024-06-14T00:00:00,3,Stability,Database Performance Loss,2,2,5446968,stability,1,False,2024-06-25T00:00:00,8,True,enabled,4,0,4
+rule_48,2024-06-21T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,1,9967605,performance,0,True,2024-06-21T00:00:00,4,True,enabled,3,2,4
+rule_49,2024-06-27T00:00:00,2024-06-27T00:00:00,1,Availability,Database Performance Loss,2,5,2260300,availability,1,True,2024-06-30T00:00:00,5,True,enabled,2,4,5
+rule_50,2024-06-15T00:00:00,2024-06-21T00:00:00,4,Performance,Best Practice,1,4,9967427,tuning,3,False,2024-06-20T00:00:00,4,True,enabled,2,2,5
+rule_51,2024-06-02T00:00:00,2024-06-20T00:00:00,2,Security,Decreased Security,2,2,6564028,stability,0,False,2024-06-07T00:00:00,4,True,enabled,3,4,4
+rule_52,2024-06-06T00:00:00,2024-06-28T00:00:00,3,Stability,Decreased Security,2,5,4428981,stability,2,False,2024-06-12T00:00:00,7,True,enabled,2,4,3
+rule_53,2024-06-06T00:00:00,2024-06-27T00:00:00,1,Availability,Database Performance Loss,2,2,7152320,logging,2,True,2024-06-29T00:00:00,7,True,enabled,5,2,2
+rule_54,2024-06-22T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,3,9984511,security,0,False,2024-06-27T00:00:00,9,True,enabled,5,1,4
+rule_55,2024-06-28T00:00:00,2024-06-28T00:00:00,2,Security,Decreased Security,2,2,3657285,tuning,0,True,2024-06-30T00:00:00,1,True,enabled,1,3,1
+rule_56,2024-06-05T00:00:00,2024-06-22T00:00:00,3,Stability,Best Practice,1,1,4445484,tuning,3,False,2024-06-12T00:00:00,6,True,enabled,1,3,0
+rule_57,2024-06-11T00:00:00,2024-06-22T00:00:00,4,Performance,Decreased Security,2,1,6032782,logging,0,True,2024-06-14T00:00:00,4,True,enabled,1,5,3
+rule_58,2024-06-04T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,1,8671319,performance,2,True,2024-06-11T00:00:00,10,True,enabled,2,4,2
+rule_59,2024-06-05T00:00:00,2024-06-28T00:00:00,4,Performance,Best Practice,1,2,9063335,availability,0,True,2024-06-11T00:00:00,1,True,enabled,5,0,4
+rule_60,2024-06-06T00:00:00,2024-06-11T00:00:00,1,Availability,Database Performance Loss,2,4,9856270,tuning,3,True,2024-06-23T00:00:00,1,True,enabled,5,5,3
+rule_61,2024-06-02T00:00:00,2024-06-22T00:00:00,4,Performance,Best Practice,1,1,1967022,logging,2,False,2024-06-18T00:00:00,9,True,enabled,2,0,3
+rule_62,2024-06-21T00:00:00,2024-06-27T00:00:00,3,Stability,Decreased Security,2,3,7878206,performance,0,True,2024-06-28T00:00:00,5,True,enabled,1,3,2
+rule_63,2024-06-02T00:00:00,2024-06-04T00:00:00,4,Performance,Decreased Security,2,3,1912813,logging,3,False,2024-06-27T00:00:00,3,True,enabled,1,0,3
+rule_64,2024-06-18T00:00:00,2024-06-25T00:00:00,4,Performance,Database Performance Loss,2,1,6394805,logging,2,True,2024-06-30T00:00:00,6,True,enabled,4,1,0
+rule_65,2024-06-10T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,1,9762027,security,1,True,2024-06-12T00:00:00,2,True,enabled,2,2,1
+rule_66,2024-06-25T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,1,1490890,performance,2,True,2024-06-25T00:00:00,9,True,enabled,3,5,0
+rule_67,2024-06-17T00:00:00,2024-06-20T00:00:00,2,Security,Decreased Security,2,4,9477620,logging,1,True,2024-06-24T00:00:00,9,True,enabled,1,3,0
+rule_68,2024-06-08T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,5,1336400,availability,0,False,2024-06-13T00:00:00,7,True,enabled,2,2,0
+rule_69,2024-06-02T00:00:00,2024-06-14T00:00:00,1,Availability,Best Practice,1,2,3197240,tuning,1,True,2024-06-20T00:00:00,8,True,enabled,2,5,5
+rule_70,2024-06-08T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,5,3050367,hardening,0,True,2024-06-08T00:00:00,6,True,enabled,5,2,4
+rule_71,2024-06-21T00:00:00,2024-06-22T00:00:00,1,Availability,Decreased Security,2,2,5832400,performance,0,False,2024-06-30T00:00:00,8,True,enabled,1,3,3
+rule_72,2024-06-24T00:00:00,2024-06-25T00:00:00,1,Availability,Best Practice,1,1,8914499,security,0,True,2024-06-28T00:00:00,9,True,enabled,1,0,4
+rule_73,2024-06-03T00:00:00,2024-06-11T00:00:00,4,Performance,Database Performance Loss,2,5,3708830,tuning,3,False,2024-06-27T00:00:00,9,True,enabled,1,3,2
+rule_74,2024-06-27T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,5,1671851,tuning,3,True,2024-06-28T00:00:00,6,True,enabled,4,5,0
+rule_75,2024-06-03T00:00:00,2024-06-12T00:00:00,3,Stability,Best Practice,1,5,6338863,availability,0,False,2024-06-15T00:00:00,9,True,enabled,5,1,3
+rule_76,2024-06-17T00:00:00,2024-06-20T00:00:00,4,Performance,Best Practice,1,3,6729537,tuning,2,False,2024-06-26T00:00:00,2,True,enabled,4,3,2
+rule_77,2024-06-14T00:00:00,2024-06-22T00:00:00,1,Availability,Best Practice,1,2,3983471,security,1,False,2024-06-15T00:00:00,3,True,enabled,4,2,1
+rule_78,2024-06-02T00:00:00,2024-06-17T00:00:00,1,Availability,Best Practice,1,3,7697910,security,3,False,2024-06-18T00:00:00,1,True,enabled,2,0,4
+rule_79,2024-06-13T00:00:00,2024-06-26T00:00:00,1,Availability,Best Practice,1,5,5345138,tuning,3,False,2024-06-26T00:00:00,9,True,enabled,2,5,2
+rule_80,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,4,5525891,availability,0,False,2024-06-30T00:00:00,5,True,enabled,5,5,0
+rule_81,2024-06-07T00:00:00,2024-06-19T00:00:00,1,Availability,Best Practice,1,2,2653250,hardening,3,False,2024-06-07T00:00:00,1,True,enabled,3,0,2
+rule_82,2024-06-25T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,4,6271692,logging,0,True,2024-06-30T00:00:00,2,True,enabled,4,0,4
+rule_83,2024-06-13T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,1,9800670,stability,1,False,2024-06-24T00:00:00,7,True,enabled,1,5,4
+rule_84,2024-06-04T00:00:00,2024-06-19T00:00:00,1,Availability,Best Practice,1,4,2854574,availability,1,False,2024-06-08T00:00:00,8,True,enabled,2,5,4
+rule_85,2024-06-10T00:00:00,2024-06-14T00:00:00,3,Stability,Decreased Security,2,4,5981517,performance,3,False,2024-06-25T00:00:00,2,True,enabled,4,4,5
+rule_86,2024-06-26T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,4,1264492,hardening,2,False,2024-06-28T00:00:00,5,True,enabled,4,2,0
+rule_87,2024-06-17T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,3,7393754,logging,3,False,2024-06-29T00:00:00,7,True,enabled,1,5,0
+rule_88,2024-06-20T00:00:00,2024-06-25T00:00:00,2,Security,Best Practice,1,4,4815671,tuning,3,True,2024-06-28T00:00:00,3,True,enabled,4,2,3
+rule_89,2024-06-14T00:00:00,2024-06-15T00:00:00,4,Performance,Best Practice,1,3,8228064,logging,2,True,2024-06-22T00:00:00,7,True,enabled,4,2,5
+rule_90,2024-06-12T00:00:00,2024-06-18T00:00:00,1,Availability,Database Performance Loss,2,5,1860982,logging,1,True,2024-06-19T00:00:00,1,True,enabled,2,0,4
+rule_91,2024-06-29T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,2,9499072,performance,2,True,2024-06-30T00:00:00,3,True,enabled,1,4,0
+rule_92,2024-06-05T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,2,1570937,availability,0,True,2024-06-05T00:00:00,10,True,enabled,1,5,4
+rule_93,2024-06-11T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,2,4171668,security,3,True,2024-06-11T00:00:00,2,True,enabled,4,2,5
+rule_94,2024-06-07T00:00:00,2024-06-08T00:00:00,1,Availability,Best Practice,1,4,5871803,stability,2,True,2024-06-20T00:00:00,5,True,enabled,5,0,2
+rule_95,2024-06-07T00:00:00,2024-06-15T00:00:00,1,Availability,Best Practice,1,5,7500101,logging,0,False,2024-06-28T00:00:00,6,True,enabled,2,5,3
+rule_96,2024-06-21T00:00:00,2024-06-21T00:00:00,3,Stability,Decreased Security,2,4,8343523,hardening,1,True,2024-06-21T00:00:00,7,True,enabled,5,2,3
+rule_97,2024-06-16T00:00:00,2024-06-18T00:00:00,1,Availability,Database Performance Loss,2,2,7808810,database,1,True,2024-06-21T00:00:00,6,True,enabled,3,2,2
+rule_98,2024-06-26T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,3,9511675,stability,2,True,2024-06-27T00:00:00,3,True,enabled,2,4,4
+rule_99,2024-06-29T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,4,5915187,hardening,2,False,2024-06-29T00:00:00,9,True,enabled,3,2,5
+rule_100,2024-06-15T00:00:00,2024-06-19T00:00:00,4,Performance,Best Practice,1,2,7656047,security,3,False,2024-06-17T00:00:00,5,True,enabled,1,1,2
+rule_101,2024-06-08T00:00:00,2024-06-13T00:00:00,2,Security,Database Performance Loss,2,2,6843706,security,0,False,2024-06-12T00:00:00,5,True,enabled,4,2,1
+rule_102,2024-06-29T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,5,3206738,logging,1,False,2024-06-29T00:00:00,2,True,enabled,4,0,3
+rule_103,2024-06-30T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,1,2720768,availability,3,False,2024-06-30T00:00:00,1,True,enabled,5,3,2
+rule_104,2024-06-28T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,1,1840950,logging,0,False,2024-06-28T00:00:00,8,True,enabled,5,1,0
+rule_105,2024-06-15T00:00:00,2024-06-20T00:00:00,3,Stability,Decreased Security,2,3,6089340,tuning,2,False,2024-06-24T00:00:00,1,True,enabled,2,0,2
+rule_106,2024-06-02T00:00:00,2024-06-02T00:00:00,1,Availability,Best Practice,1,5,2565493,performance,2,True,2024-06-11T00:00:00,5,True,enabled,3,3,5
+rule_107,2024-06-20T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,3,7916260,logging,0,False,2024-06-21T00:00:00,5,True,enabled,3,3,3
+rule_108,2024-06-25T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,1,6557698,security,3,True,2024-06-28T00:00:00,2,True,enabled,4,0,1
+rule_109,2024-06-12T00:00:00,2024-06-12T00:00:00,2,Security,Decreased Security,2,2,5810877,hardening,1,False,2024-06-24T00:00:00,10,True,enabled,1,4,1
+rule_110,2024-06-06T00:00:00,2024-06-17T00:00:00,2,Security,Decreased Security,2,2,4759796,hardening,0,True,2024-06-29T00:00:00,5,True,enabled,2,1,5
+rule_111,2024-06-01T00:00:00,2024-06-16T00:00:00,2,Security,Best Practice,1,2,5926954,stability,0,False,2024-06-18T00:00:00,3,True,enabled,4,0,3
+rule_112,2024-06-15T00:00:00,2024-06-17T00:00:00,1,Availability,Database Performance Loss,2,4,7301487,tuning,0,True,2024-06-19T00:00:00,9,True,enabled,2,2,2
+rule_113,2024-06-25T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,2,8869479,performance,3,True,2024-06-27T00:00:00,2,True,enabled,2,5,3
+rule_114,2024-06-01T00:00:00,2024-06-22T00:00:00,1,Availability,Best Practice,1,3,7984967,hardening,1,False,2024-06-02T00:00:00,1,True,enabled,5,2,0
+rule_115,2024-06-05T00:00:00,2024-06-15T00:00:00,4,Performance,Database Performance Loss,2,5,3143611,tuning,2,False,2024-06-10T00:00:00,10,True,enabled,4,4,1
+rule_116,2024-06-05T00:00:00,2024-06-25T00:00:00,3,Stability,Decreased Security,2,3,4850944,availability,2,True,2024-06-30T00:00:00,8,True,enabled,2,5,1
+rule_117,2024-06-13T00:00:00,2024-06-13T00:00:00,2,Security,Best Practice,1,1,3764906,availability,0,False,2024-06-28T00:00:00,8,True,enabled,3,3,1
+rule_118,2024-06-24T00:00:00,2024-06-24T00:00:00,1,Availability,Best Practice,1,2,9042854,availability,0,False,2024-06-28T00:00:00,4,True,enabled,1,2,4
+rule_119,2024-06-08T00:00:00,2024-06-11T00:00:00,2,Security,Database Performance Loss,2,1,3182226,performance,1,False,2024-06-28T00:00:00,1,True,enabled,3,3,1
+rule_120,2024-06-29T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,5,3241937,performance,0,True,2024-06-29T00:00:00,3,True,enabled,4,2,1
+rule_121,2024-06-27T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,4,3885316,logging,3,True,2024-06-28T00:00:00,2,True,enabled,1,0,4
+rule_122,2024-06-06T00:00:00,2024-06-20T00:00:00,4,Performance,Database Performance Loss,2,4,8624917,availability,3,True,2024-06-23T00:00:00,10,True,enabled,4,5,2
+rule_123,2024-06-20T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,5,3034685,database,1,False,2024-06-27T00:00:00,2,True,enabled,2,2,4
+rule_124,2024-06-06T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,4,3341866,hardening,1,True,2024-06-27T00:00:00,10,True,enabled,3,0,3
+rule_125,2024-06-29T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,1,2665961,hardening,1,True,2024-06-29T00:00:00,3,True,enabled,3,1,2
+rule_126,2024-06-09T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,5,4131108,performance,0,False,2024-06-22T00:00:00,4,True,enabled,4,1,4
+rule_127,2024-06-06T00:00:00,2024-06-21T00:00:00,1,Availability,Database Performance Loss,2,2,9735639,stability,1,False,2024-06-26T00:00:00,1,True,enabled,3,4,4
+rule_128,2024-06-01T00:00:00,2024-06-02T00:00:00,4,Performance,Database Performance Loss,2,4,8290054,hardening,0,False,2024-06-17T00:00:00,10,True,enabled,5,4,0
+rule_129,2024-06-29T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,4,1782857,performance,1,True,2024-06-29T00:00:00,5,True,enabled,3,0,5
+rule_130,2024-06-23T00:00:00,2024-06-23T00:00:00,1,Availability,Decreased Security,2,5,3742278,database,1,True,2024-06-30T00:00:00,6,True,enabled,4,5,0
+rule_131,2024-06-12T00:00:00,2024-06-23T00:00:00,2,Security,Best Practice,1,1,1851872,database,3,True,2024-06-23T00:00:00,6,True,enabled,3,0,4
+rule_132,2024-06-26T00:00:00,2024-06-26T00:00:00,4,Performance,Decreased Security,2,5,2602103,hardening,0,False,2024-06-26T00:00:00,9,True,enabled,1,2,0
+rule_133,2024-06-10T00:00:00,2024-06-14T00:00:00,4,Performance,Best Practice,1,4,9720740,database,2,True,2024-06-23T00:00:00,7,True,enabled,5,3,2
+rule_134,2024-06-29T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,4,7325046,hardening,2,False,2024-06-29T00:00:00,5,True,enabled,3,2,3
+rule_135,2024-06-07T00:00:00,2024-06-11T00:00:00,1,Availability,Best Practice,1,3,1458671,security,3,True,2024-06-19T00:00:00,3,True,enabled,5,3,5
+rule_136,2024-06-27T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,4,1756851,availability,2,False,2024-06-27T00:00:00,8,True,enabled,2,2,1
+rule_137,2024-06-05T00:00:00,2024-06-09T00:00:00,1,Availability,Best Practice,1,3,3514487,database,2,False,2024-06-06T00:00:00,10,True,enabled,4,0,1
+rule_138,2024-06-27T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,5,6078974,tuning,0,False,2024-06-29T00:00:00,8,True,enabled,2,2,2
+rule_139,2024-06-02T00:00:00,2024-06-06T00:00:00,1,Availability,Decreased Security,2,4,4214859,availability,1,True,2024-06-28T00:00:00,8,True,enabled,3,4,2
+rule_140,2024-06-23T00:00:00,2024-06-28T00:00:00,4,Performance,Decreased Security,2,4,1102023,security,0,False,2024-06-25T00:00:00,3,True,enabled,3,5,3
+rule_141,2024-06-04T00:00:00,2024-06-21T00:00:00,2,Security,Database Performance Loss,2,3,9763993,logging,3,False,2024-06-12T00:00:00,3,True,enabled,1,0,5
+rule_142,2024-06-07T00:00:00,2024-06-21T00:00:00,3,Stability,Best Practice,1,5,2648727,database,2,True,2024-06-28T00:00:00,1,True,enabled,5,1,4
+rule_143,2024-06-20T00:00:00,2024-06-28T00:00:00,2,Security,Decreased Security,2,3,5718546,hardening,0,True,2024-06-24T00:00:00,3,True,enabled,4,0,0
+rule_144,2024-06-28T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,4,6994125,tuning,3,True,2024-06-29T00:00:00,6,True,enabled,4,4,0
+rule_145,2024-06-28T00:00:00,2024-06-28T00:00:00,4,Performance,Decreased Security,2,5,2291921,performance,3,True,2024-06-28T00:00:00,2,True,enabled,1,2,1
+rule_146,2024-06-13T00:00:00,2024-06-27T00:00:00,1,Availability,Decreased Security,2,3,5829802,database,3,True,2024-06-28T00:00:00,9,True,enabled,5,1,2
+rule_147,2024-06-18T00:00:00,2024-06-19T00:00:00,3,Stability,Best Practice,1,2,4498498,database,2,True,2024-06-28T00:00:00,7,True,enabled,2,1,4
+rule_148,2024-06-19T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,4,6750636,hardening,0,True,2024-06-29T00:00:00,6,True,enabled,2,2,0
+rule_149,2024-06-24T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,2,9591438,availability,2,False,2024-06-27T00:00:00,5,True,enabled,5,5,2
+rule_150,2024-06-26T00:00:00,2024-06-26T00:00:00,2,Security,Database Performance Loss,2,2,6086254,hardening,0,True,2024-06-26T00:00:00,6,True,enabled,5,1,1
+rule_151,2024-06-02T00:00:00,2024-06-12T00:00:00,2,Security,Decreased Security,2,1,6668239,security,0,False,2024-06-10T00:00:00,1,True,enabled,1,2,1
+rule_152,2024-06-09T00:00:00,2024-06-13T00:00:00,1,Availability,Best Practice,1,4,6934875,database,1,False,2024-06-12T00:00:00,10,True,enabled,3,1,1
+rule_153,2024-06-19T00:00:00,2024-06-20T00:00:00,2,Security,Database Performance Loss,2,2,4654258,database,3,True,2024-06-20T00:00:00,3,True,enabled,2,2,4
+rule_154,2024-06-15T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,4,3478689,database,1,False,2024-06-20T00:00:00,5,True,enabled,4,1,1
+rule_155,2024-06-23T00:00:00,2024-06-25T00:00:00,2,Security,Database Performance Loss,2,3,8786930,hardening,0,False,2024-06-24T00:00:00,5,True,enabled,4,0,3
+rule_156,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,4,6995460,performance,2,False,2024-06-30T00:00:00,1,True,enabled,2,2,0
+rule_157,2024-06-25T00:00:00,2024-06-27T00:00:00,4,Performance,Best Practice,1,2,3249995,stability,3,False,2024-06-28T00:00:00,9,True,enabled,2,3,4
+rule_158,2024-06-19T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,3,2895557,availability,1,True,2024-06-26T00:00:00,1,True,enabled,1,3,3
+rule_159,2024-06-21T00:00:00,2024-06-22T00:00:00,2,Security,Best Practice,1,3,8062783,availability,2,True,2024-06-25T00:00:00,9,True,enabled,2,4,0
+rule_160,2024-06-14T00:00:00,2024-06-21T00:00:00,3,Stability,Decreased Security,2,5,9386769,database,1,False,2024-06-16T00:00:00,1,True,enabled,3,2,2
+rule_161,2024-06-07T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,3,9845571,stability,3,True,2024-06-16T00:00:00,1,True,enabled,1,3,2
+rule_162,2024-06-02T00:00:00,2024-06-12T00:00:00,4,Performance,Database Performance Loss,2,2,5114320,database,0,True,2024-06-28T00:00:00,8,True,enabled,3,1,1
+rule_163,2024-06-03T00:00:00,2024-06-09T00:00:00,4,Performance,Database Performance Loss,2,1,9787789,stability,3,True,2024-06-12T00:00:00,6,True,enabled,4,4,4
+rule_164,2024-06-30T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,5,3348359,database,2,False,2024-06-30T00:00:00,1,True,enabled,2,1,4
+rule_165,2024-06-24T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,3,8975587,performance,2,True,2024-06-26T00:00:00,1,True,enabled,2,2,4
+rule_166,2024-06-09T00:00:00,2024-06-25T00:00:00,3,Stability,Decreased Security,2,5,2085425,hardening,2,True,2024-06-16T00:00:00,7,True,enabled,1,3,3
+rule_167,2024-06-21T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,3,8008996,tuning,3,True,2024-06-28T00:00:00,5,True,enabled,2,3,1
+rule_168,2024-06-06T00:00:00,2024-06-12T00:00:00,3,Stability,Best Practice,1,4,3577234,availability,1,False,2024-06-14T00:00:00,2,True,enabled,5,0,0
+rule_169,2024-06-27T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,4,6520530,stability,1,True,2024-06-28T00:00:00,2,True,enabled,1,0,1
+rule_170,2024-06-28T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,2,3240840,tuning,1,True,2024-06-29T00:00:00,5,True,enabled,3,0,4
+rule_171,2024-06-19T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,3,2294938,security,1,True,2024-06-23T00:00:00,4,True,enabled,5,5,0
+rule_172,2024-06-15T00:00:00,2024-06-15T00:00:00,2,Security,Best Practice,1,1,2500618,stability,2,True,2024-06-17T00:00:00,8,True,enabled,3,5,3
+rule_173,2024-06-21T00:00:00,2024-06-24T00:00:00,4,Performance,Best Practice,1,4,4861649,performance,2,False,2024-06-27T00:00:00,5,True,enabled,3,5,4
+rule_174,2024-06-06T00:00:00,2024-06-09T00:00:00,2,Security,Best Practice,1,5,3545950,performance,3,True,2024-06-24T00:00:00,4,True,enabled,1,5,1
+rule_175,2024-06-22T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,5,1417992,hardening,1,True,2024-06-22T00:00:00,1,True,enabled,1,2,2
+rule_176,2024-06-23T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,4,3713842,hardening,3,True,2024-06-23T00:00:00,9,True,enabled,1,4,1
+rule_177,2024-06-10T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,4,8559949,performance,0,True,2024-06-29T00:00:00,2,True,enabled,4,1,4
+rule_178,2024-06-07T00:00:00,2024-06-14T00:00:00,1,Availability,Database Performance Loss,2,4,4140923,stability,1,False,2024-06-13T00:00:00,7,True,enabled,3,5,1
+rule_179,2024-06-02T00:00:00,2024-06-22T00:00:00,4,Performance,Best Practice,1,1,1402366,logging,0,True,2024-06-22T00:00:00,9,True,enabled,4,5,0
+rule_180,2024-06-10T00:00:00,2024-06-25T00:00:00,1,Availability,Decreased Security,2,3,7313199,stability,2,False,2024-06-18T00:00:00,2,True,enabled,5,4,5
+rule_181,2024-06-05T00:00:00,2024-06-18T00:00:00,1,Availability,Database Performance Loss,2,4,1335235,availability,2,True,2024-06-19T00:00:00,1,True,enabled,5,5,5
+rule_182,2024-06-26T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,3,7339838,database,0,True,2024-06-26T00:00:00,6,True,enabled,4,3,5
+rule_183,2024-06-20T00:00:00,2024-06-26T00:00:00,1,Availability,Best Practice,1,2,7769517,database,2,False,2024-06-24T00:00:00,5,True,enabled,2,5,4
+rule_184,2024-06-25T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,3,5804076,hardening,1,True,2024-06-27T00:00:00,6,True,enabled,1,2,0
+rule_185,2024-06-30T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,3,9397464,tuning,1,True,2024-06-30T00:00:00,6,True,enabled,3,4,3
+rule_186,2024-06-12T00:00:00,2024-06-18T00:00:00,1,Availability,Best Practice,1,3,4619460,availability,0,False,2024-06-21T00:00:00,1,True,enabled,3,4,5
+rule_187,2024-06-05T00:00:00,2024-06-17T00:00:00,2,Security,Decreased Security,2,3,2215451,hardening,0,False,2024-06-17T00:00:00,10,True,enabled,2,5,1
+rule_188,2024-06-10T00:00:00,2024-06-17T00:00:00,1,Availability,Database Performance Loss,2,3,4083909,logging,3,False,2024-06-14T00:00:00,8,True,enabled,3,0,2
+rule_189,2024-06-12T00:00:00,2024-06-15T00:00:00,3,Stability,Decreased Security,2,2,1537838,availability,1,False,2024-06-25T00:00:00,4,True,enabled,2,2,1
+rule_190,2024-06-01T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,1,4291538,stability,1,False,2024-06-26T00:00:00,8,True,enabled,5,1,4
+rule_191,2024-06-23T00:00:00,2024-06-24T00:00:00,3,Stability,Decreased Security,2,5,3678649,logging,0,True,2024-06-30T00:00:00,8,True,enabled,1,2,2
+rule_192,2024-06-27T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,4,4807905,security,0,False,2024-06-28T00:00:00,4,True,enabled,3,2,3
+rule_193,2024-06-15T00:00:00,2024-06-16T00:00:00,4,Performance,Best Practice,1,3,4747319,security,0,True,2024-06-19T00:00:00,4,True,enabled,2,2,5
+rule_194,2024-06-02T00:00:00,2024-06-19T00:00:00,3,Stability,Database Performance Loss,2,3,4506375,security,3,False,2024-06-21T00:00:00,4,True,enabled,2,1,5
+rule_195,2024-06-13T00:00:00,2024-06-18T00:00:00,4,Performance,Best Practice,1,3,2035840,performance,1,False,2024-06-26T00:00:00,1,True,enabled,4,0,5
+rule_196,2024-06-27T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,5,7526349,hardening,1,False,2024-06-29T00:00:00,3,True,enabled,4,2,0
+rule_197,2024-06-08T00:00:00,2024-06-10T00:00:00,4,Performance,Decreased Security,2,5,7357726,availability,0,False,2024-06-29T00:00:00,10,True,enabled,5,0,3
+rule_198,2024-06-09T00:00:00,2024-06-20T00:00:00,2,Security,Decreased Security,2,1,8969526,database,0,True,2024-06-17T00:00:00,7,True,enabled,4,1,1
+rule_199,2024-06-07T00:00:00,2024-06-18T00:00:00,4,Performance,Database Performance Loss,2,5,1142848,security,0,False,2024-06-16T00:00:00,9,True,enabled,3,4,2
+rule_200,2024-06-14T00:00:00,2024-06-19T00:00:00,3,Stability,Best Practice,1,2,1897411,database,0,False,2024-06-29T00:00:00,9,True,enabled,3,4,2
+rule_201,2024-06-23T00:00:00,2024-06-24T00:00:00,3,Stability,Best Practice,1,3,2428856,stability,2,True,2024-06-27T00:00:00,8,True,enabled,1,4,3
+rule_202,2024-06-13T00:00:00,2024-06-18T00:00:00,1,Availability,Decreased Security,2,2,4005792,availability,3,False,2024-06-25T00:00:00,1,True,enabled,2,5,5
+rule_203,2024-06-22T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,5,7133159,stability,1,False,2024-06-27T00:00:00,2,True,enabled,1,5,0
+rule_204,2024-06-28T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,3,4890380,logging,1,False,2024-06-28T00:00:00,10,True,enabled,1,4,4
+rule_205,2024-06-27T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,4,2645400,tuning,3,False,2024-06-27T00:00:00,5,True,enabled,4,0,3
+rule_206,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,5,4715796,tuning,2,True,2024-06-29T00:00:00,9,True,enabled,5,0,0
+rule_207,2024-06-07T00:00:00,2024-06-09T00:00:00,1,Availability,Best Practice,1,4,9513087,performance,2,True,2024-06-16T00:00:00,7,True,enabled,3,5,3
+rule_208,2024-06-23T00:00:00,2024-06-28T00:00:00,4,Performance,Decreased Security,2,5,5831298,performance,1,False,2024-06-27T00:00:00,2,True,enabled,4,3,1
+rule_209,2024-06-20T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,5,4118842,security,3,True,2024-06-26T00:00:00,5,True,enabled,5,2,4
+rule_210,2024-06-23T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,2,9989096,security,2,True,2024-06-28T00:00:00,6,True,enabled,2,0,0
+rule_211,2024-06-04T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,5,7424736,tuning,2,True,2024-06-21T00:00:00,7,True,enabled,5,2,3
+rule_212,2024-06-14T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,4,1139568,database,1,False,2024-06-15T00:00:00,8,True,enabled,3,0,0
+rule_213,2024-06-07T00:00:00,2024-06-16T00:00:00,2,Security,Best Practice,1,4,2849594,logging,1,True,2024-06-14T00:00:00,7,True,enabled,5,2,2
+rule_214,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,3,5403852,security,1,False,2024-06-29T00:00:00,7,True,enabled,4,3,5
+rule_215,2024-06-27T00:00:00,2024-06-27T00:00:00,2,Security,Decreased Security,2,5,9800026,availability,2,False,2024-06-30T00:00:00,3,True,enabled,4,2,2
+rule_216,2024-06-20T00:00:00,2024-06-21T00:00:00,3,Stability,Decreased Security,2,3,8115770,security,3,True,2024-06-21T00:00:00,8,True,enabled,2,1,0
+rule_217,2024-06-22T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,4,7349778,performance,2,True,2024-06-25T00:00:00,10,True,enabled,2,1,3
+rule_218,2024-06-11T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,3,3329713,hardening,2,True,2024-06-16T00:00:00,2,True,enabled,5,0,1
+rule_219,2024-06-08T00:00:00,2024-06-25T00:00:00,4,Performance,Best Practice,1,5,4211375,database,3,True,2024-06-27T00:00:00,5,True,enabled,2,1,0
+rule_220,2024-06-01T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,1,5282345,database,2,False,2024-06-13T00:00:00,10,True,enabled,2,1,2
+rule_221,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,2,1248965,database,2,True,2024-06-30T00:00:00,3,True,enabled,3,3,3
+rule_222,2024-06-03T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,5,7089445,tuning,3,True,2024-06-14T00:00:00,8,True,enabled,2,0,2
+rule_223,2024-06-26T00:00:00,2024-06-27T00:00:00,1,Availability,Decreased Security,2,1,5509390,availability,3,False,2024-06-30T00:00:00,7,True,enabled,5,4,1
+rule_224,2024-06-11T00:00:00,2024-06-25T00:00:00,4,Performance,Database Performance Loss,2,5,3014766,database,1,True,2024-06-28T00:00:00,4,True,enabled,3,3,5
+rule_225,2024-06-13T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,2,2432104,stability,2,True,2024-06-18T00:00:00,3,True,enabled,2,4,5
+rule_226,2024-06-05T00:00:00,2024-06-25T00:00:00,4,Performance,Database Performance Loss,2,2,9359788,performance,0,False,2024-06-25T00:00:00,8,True,enabled,4,1,1
+rule_227,2024-06-09T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,1,6449764,logging,3,True,2024-06-26T00:00:00,2,True,enabled,4,1,5
+rule_228,2024-06-13T00:00:00,2024-06-19T00:00:00,2,Security,Database Performance Loss,2,2,4417468,logging,0,False,2024-06-16T00:00:00,2,True,enabled,1,4,5
+rule_229,2024-06-21T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,2,4800885,logging,3,False,2024-06-26T00:00:00,6,True,enabled,3,1,4
+rule_230,2024-06-10T00:00:00,2024-06-23T00:00:00,4,Performance,Best Practice,1,1,2425850,stability,1,False,2024-06-23T00:00:00,3,True,enabled,4,5,2
+rule_231,2024-06-10T00:00:00,2024-06-13T00:00:00,3,Stability,Decreased Security,2,5,1668543,performance,2,False,2024-06-25T00:00:00,1,True,enabled,2,4,3
+rule_232,2024-06-25T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,3,1962107,performance,3,True,2024-06-27T00:00:00,4,True,enabled,5,5,1
+rule_233,2024-06-26T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,1,2636814,stability,0,True,2024-06-27T00:00:00,8,True,enabled,4,1,2
+rule_234,2024-06-19T00:00:00,2024-06-24T00:00:00,1,Availability,Database Performance Loss,2,4,3359487,security,3,False,2024-06-26T00:00:00,7,True,enabled,1,3,5
+rule_235,2024-06-29T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,2,5791150,database,2,True,2024-06-29T00:00:00,3,True,enabled,2,2,0
+rule_236,2024-06-15T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,5,5632011,availability,3,True,2024-06-27T00:00:00,5,True,enabled,4,2,1
+rule_237,2024-06-21T00:00:00,2024-06-22T00:00:00,1,Availability,Best Practice,1,3,4686668,database,3,True,2024-06-24T00:00:00,1,True,enabled,2,0,1
+rule_238,2024-06-25T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,5,8926924,security,1,False,2024-06-25T00:00:00,1,True,enabled,3,2,2
+rule_239,2024-06-18T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,1,5073924,security,1,True,2024-06-23T00:00:00,8,True,enabled,4,3,5
+rule_240,2024-06-13T00:00:00,2024-06-18T00:00:00,3,Stability,Database Performance Loss,2,4,3402397,availability,0,False,2024-06-17T00:00:00,2,True,enabled,3,5,3
+rule_241,2024-06-15T00:00:00,2024-06-15T00:00:00,1,Availability,Decreased Security,2,4,2109227,stability,1,False,2024-06-17T00:00:00,3,True,enabled,2,2,4
+rule_242,2024-06-13T00:00:00,2024-06-26T00:00:00,2,Security,Database Performance Loss,2,2,1630965,tuning,2,False,2024-06-27T00:00:00,6,True,enabled,1,2,5
+rule_243,2024-06-06T00:00:00,2024-06-09T00:00:00,1,Availability,Database Performance Loss,2,4,6765408,database,2,True,2024-06-08T00:00:00,2,True,enabled,1,2,5
+rule_244,2024-06-03T00:00:00,2024-06-16T00:00:00,1,Availability,Best Practice,1,4,8375043,tuning,2,True,2024-06-27T00:00:00,6,True,enabled,1,1,5
+rule_245,2024-06-06T00:00:00,2024-06-20T00:00:00,4,Performance,Decreased Security,2,1,5734753,tuning,1,True,2024-06-28T00:00:00,5,True,enabled,2,2,2
+rule_246,2024-06-14T00:00:00,2024-06-17T00:00:00,2,Security,Database Performance Loss,2,4,2158699,availability,2,True,2024-06-28T00:00:00,3,True,enabled,4,1,4
+rule_247,2024-06-22T00:00:00,2024-06-27T00:00:00,3,Stability,Decreased Security,2,5,1999488,tuning,3,True,2024-06-27T00:00:00,9,True,enabled,5,5,5
+rule_248,2024-06-12T00:00:00,2024-06-24T00:00:00,2,Security,Decreased Security,2,3,8736286,security,0,True,2024-06-24T00:00:00,9,True,enabled,1,0,3
+rule_249,2024-06-19T00:00:00,2024-06-23T00:00:00,3,Stability,Decreased Security,2,1,6038230,security,1,False,2024-06-27T00:00:00,9,True,enabled,3,3,3
+rule_250,2024-06-12T00:00:00,2024-06-12T00:00:00,4,Performance,Best Practice,1,5,8416842,logging,2,False,2024-06-19T00:00:00,3,True,enabled,1,0,0
+rule_251,2024-06-08T00:00:00,2024-06-18T00:00:00,2,Security,Database Performance Loss,2,3,1447145,stability,0,True,2024-06-24T00:00:00,2,True,enabled,2,1,5
+rule_252,2024-06-12T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,3,4725755,tuning,2,True,2024-06-15T00:00:00,2,True,enabled,2,1,2
+rule_253,2024-06-16T00:00:00,2024-06-16T00:00:00,1,Availability,Decreased Security,2,3,2371197,performance,0,False,2024-06-17T00:00:00,8,True,enabled,1,4,3
+rule_254,2024-06-01T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,2,9930323,database,1,True,2024-06-17T00:00:00,3,True,enabled,4,0,2
+rule_255,2024-06-25T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,3,1170018,stability,2,True,2024-06-27T00:00:00,10,True,enabled,1,3,3
+rule_256,2024-06-28T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,2,7069433,performance,3,False,2024-06-29T00:00:00,9,True,enabled,4,3,5
+rule_257,2024-06-03T00:00:00,2024-06-08T00:00:00,3,Stability,Decreased Security,2,1,4678941,stability,1,False,2024-06-09T00:00:00,5,True,enabled,2,5,2
+rule_258,2024-06-02T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,4,4611760,tuning,1,True,2024-06-08T00:00:00,8,True,enabled,2,4,2
+rule_259,2024-06-25T00:00:00,2024-06-26T00:00:00,4,Performance,Decreased Security,2,2,2392166,security,0,True,2024-06-28T00:00:00,5,True,enabled,3,4,0
+rule_260,2024-06-19T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,5,4539618,availability,2,False,2024-06-22T00:00:00,4,True,enabled,5,0,1
+rule_261,2024-06-28T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,1,6335011,logging,1,False,2024-06-29T00:00:00,5,True,enabled,2,3,3
+rule_262,2024-06-16T00:00:00,2024-06-19T00:00:00,2,Security,Database Performance Loss,2,3,9296489,hardening,2,False,2024-06-26T00:00:00,8,True,enabled,3,0,4
+rule_263,2024-06-11T00:00:00,2024-06-21T00:00:00,1,Availability,Best Practice,1,4,5784733,hardening,0,True,2024-06-23T00:00:00,4,True,enabled,3,4,0
+rule_264,2024-06-27T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,4,3235610,database,1,True,2024-06-28T00:00:00,10,True,enabled,5,3,1
+rule_265,2024-06-18T00:00:00,2024-06-20T00:00:00,2,Security,Best Practice,1,3,8762730,security,3,False,2024-06-30T00:00:00,4,True,enabled,4,2,5
+rule_266,2024-06-21T00:00:00,2024-06-23T00:00:00,1,Availability,Database Performance Loss,2,3,2430092,logging,2,True,2024-06-30T00:00:00,5,True,enabled,1,1,4
+rule_267,2024-06-25T00:00:00,2024-06-26T00:00:00,2,Security,Database Performance Loss,2,5,6490383,tuning,2,False,2024-06-30T00:00:00,8,True,enabled,3,2,1
+rule_268,2024-06-05T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,2,5118205,tuning,0,True,2024-06-15T00:00:00,5,True,enabled,1,4,3
+rule_269,2024-06-22T00:00:00,2024-06-25T00:00:00,4,Performance,Decreased Security,2,1,2144267,hardening,2,True,2024-06-29T00:00:00,1,True,enabled,5,5,2
+rule_270,2024-06-27T00:00:00,2024-06-28T00:00:00,1,Availability,Database Performance Loss,2,3,8571433,security,2,True,2024-06-27T00:00:00,6,True,enabled,4,1,1
+rule_271,2024-06-22T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,3,2225233,performance,3,True,2024-06-27T00:00:00,5,True,enabled,1,5,1
+rule_272,2024-06-28T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,3,5474846,database,3,True,2024-06-29T00:00:00,2,True,enabled,2,2,2
+rule_273,2024-06-08T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,2,4066730,stability,2,True,2024-06-18T00:00:00,3,True,enabled,5,0,0
+rule_274,2024-06-07T00:00:00,2024-06-27T00:00:00,4,Performance,Decreased Security,2,5,7126580,stability,1,True,2024-06-09T00:00:00,5,True,enabled,5,1,0
+rule_275,2024-06-03T00:00:00,2024-06-09T00:00:00,1,Availability,Database Performance Loss,2,3,6441978,security,2,True,2024-06-04T00:00:00,2,True,enabled,2,0,0
+rule_276,2024-06-16T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,5,4275424,stability,0,True,2024-06-28T00:00:00,3,True,enabled,2,0,2
+rule_277,2024-06-16T00:00:00,2024-06-21T00:00:00,1,Availability,Decreased Security,2,1,6599749,stability,1,False,2024-06-21T00:00:00,1,True,enabled,3,1,4
+rule_278,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,1,8669137,tuning,3,True,2024-06-30T00:00:00,6,True,enabled,3,0,3
+rule_279,2024-06-07T00:00:00,2024-06-11T00:00:00,4,Performance,Database Performance Loss,2,2,2389130,logging,3,False,2024-06-17T00:00:00,9,True,enabled,1,2,0
+rule_280,2024-06-29T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,2,1510198,availability,0,True,2024-06-29T00:00:00,3,True,enabled,2,0,5
+rule_281,2024-06-02T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,4,9262760,stability,0,False,2024-06-26T00:00:00,6,True,enabled,3,2,3
+rule_282,2024-06-04T00:00:00,2024-06-23T00:00:00,1,Availability,Best Practice,1,5,1292092,hardening,2,False,2024-06-20T00:00:00,4,True,enabled,1,0,0
+rule_283,2024-06-01T00:00:00,2024-06-01T00:00:00,1,Availability,Database Performance Loss,2,1,4888796,hardening,1,False,2024-06-01T00:00:00,10,True,enabled,5,3,2
+rule_284,2024-06-07T00:00:00,2024-06-12T00:00:00,2,Security,Database Performance Loss,2,4,2131496,logging,3,False,2024-06-20T00:00:00,2,True,enabled,5,3,0
+rule_285,2024-06-07T00:00:00,2024-06-15T00:00:00,3,Stability,Best Practice,1,3,7336259,performance,0,False,2024-06-20T00:00:00,6,True,enabled,3,5,2
+rule_286,2024-06-15T00:00:00,2024-06-17T00:00:00,2,Security,Best Practice,1,5,1253709,logging,3,False,2024-06-27T00:00:00,1,True,enabled,2,2,4
+rule_287,2024-06-22T00:00:00,2024-06-26T00:00:00,1,Availability,Best Practice,1,5,1943318,availability,2,False,2024-06-29T00:00:00,2,True,enabled,1,4,4
+rule_288,2024-06-27T00:00:00,2024-06-28T00:00:00,3,Stability,Decreased Security,2,2,5375751,stability,2,False,2024-06-28T00:00:00,9,True,enabled,4,4,2
+rule_289,2024-06-02T00:00:00,2024-06-16T00:00:00,2,Security,Database Performance Loss,2,3,7008247,tuning,1,True,2024-06-04T00:00:00,1,True,enabled,4,2,5
+rule_290,2024-06-27T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,2,6507800,stability,1,True,2024-06-29T00:00:00,7,True,enabled,5,2,3
+rule_291,2024-06-15T00:00:00,2024-06-21T00:00:00,3,Stability,Best Practice,1,5,6281926,hardening,2,True,2024-06-16T00:00:00,6,True,enabled,4,5,5
+rule_292,2024-06-08T00:00:00,2024-06-25T00:00:00,3,Stability,Best Practice,1,2,6986271,tuning,3,False,2024-06-10T00:00:00,5,True,enabled,2,5,4
+rule_293,2024-06-27T00:00:00,2024-06-27T00:00:00,3,Stability,Decreased Security,2,5,3087936,hardening,0,False,2024-06-29T00:00:00,10,True,enabled,4,1,5
+rule_294,2024-06-24T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,5,3613143,tuning,2,False,2024-06-29T00:00:00,8,True,enabled,5,4,2
+rule_295,2024-06-12T00:00:00,2024-06-16T00:00:00,2,Security,Decreased Security,2,2,7065900,tuning,1,False,2024-06-25T00:00:00,6,True,enabled,2,1,3
+rule_296,2024-06-05T00:00:00,2024-06-10T00:00:00,3,Stability,Database Performance Loss,2,5,3438290,performance,1,False,2024-06-05T00:00:00,9,True,enabled,3,3,2
+rule_297,2024-06-01T00:00:00,2024-06-11T00:00:00,1,Availability,Best Practice,1,1,2914050,database,0,True,2024-06-21T00:00:00,6,True,enabled,5,1,4
+rule_298,2024-06-27T00:00:00,2024-06-27T00:00:00,4,Performance,Best Practice,1,4,4323288,stability,0,False,2024-06-29T00:00:00,4,True,enabled,4,3,4
+rule_299,2024-06-05T00:00:00,2024-06-12T00:00:00,4,Performance,Database Performance Loss,2,3,7789767,availability,1,False,2024-06-28T00:00:00,2,True,enabled,5,4,0
+rule_300,2024-06-19T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,4,4357644,database,3,True,2024-06-27T00:00:00,1,True,enabled,1,0,2
+rule_301,2024-06-29T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,1,8815287,stability,0,True,2024-06-30T00:00:00,4,True,enabled,2,5,2
+rule_302,2024-06-18T00:00:00,2024-06-25T00:00:00,3,Stability,Database Performance Loss,2,2,1472002,database,2,False,2024-06-27T00:00:00,9,True,enabled,1,3,1
+rule_303,2024-06-26T00:00:00,2024-06-26T00:00:00,4,Performance,Decreased Security,2,4,3716207,security,2,True,2024-06-27T00:00:00,6,True,enabled,2,2,5
+rule_304,2024-06-06T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,3,7213368,security,1,False,2024-06-16T00:00:00,5,True,enabled,4,1,1
+rule_305,2024-06-29T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,2,2794223,database,1,False,2024-06-29T00:00:00,9,True,enabled,1,1,2
+rule_306,2024-06-25T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,3,5119903,logging,3,False,2024-06-28T00:00:00,6,True,enabled,5,3,3
+rule_307,2024-06-26T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,1,4526585,security,0,True,2024-06-29T00:00:00,1,True,enabled,5,2,0
+rule_308,2024-06-02T00:00:00,2024-06-08T00:00:00,3,Stability,Database Performance Loss,2,5,2480806,stability,2,False,2024-06-21T00:00:00,2,True,enabled,4,1,2
+rule_309,2024-06-03T00:00:00,2024-06-05T00:00:00,4,Performance,Best Practice,1,1,7933294,hardening,1,True,2024-06-08T00:00:00,5,True,enabled,5,3,0
+rule_310,2024-06-02T00:00:00,2024-06-02T00:00:00,2,Security,Decreased Security,2,2,8784058,database,1,False,2024-06-03T00:00:00,2,True,enabled,4,5,0
+rule_311,2024-06-10T00:00:00,2024-06-21T00:00:00,2,Security,Decreased Security,2,4,3360724,logging,3,False,2024-06-14T00:00:00,9,True,enabled,1,3,3
+rule_312,2024-06-29T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,4,9342982,hardening,1,False,2024-06-30T00:00:00,8,True,enabled,4,4,2
+rule_313,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,4,6764010,hardening,2,False,2024-06-30T00:00:00,2,True,enabled,3,3,0
+rule_314,2024-06-16T00:00:00,2024-06-20T00:00:00,3,Stability,Database Performance Loss,2,1,9942405,tuning,2,True,2024-06-30T00:00:00,9,True,enabled,2,3,4
+rule_315,2024-06-28T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,4,9647480,hardening,2,False,2024-06-29T00:00:00,10,True,enabled,1,2,2
+rule_316,2024-06-13T00:00:00,2024-06-16T00:00:00,4,Performance,Best Practice,1,3,2873817,availability,3,True,2024-06-22T00:00:00,4,True,enabled,4,4,3
+rule_317,2024-06-08T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,3,7182206,tuning,2,False,2024-06-09T00:00:00,1,True,enabled,3,0,5
+rule_318,2024-06-03T00:00:00,2024-06-03T00:00:00,3,Stability,Decreased Security,2,1,5862810,stability,0,True,2024-06-30T00:00:00,5,True,enabled,3,5,3
+rule_319,2024-06-13T00:00:00,2024-06-14T00:00:00,2,Security,Decreased Security,2,2,7089482,stability,0,True,2024-06-28T00:00:00,6,True,enabled,1,3,2
+rule_320,2024-06-19T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,3,7778029,logging,1,True,2024-06-21T00:00:00,7,True,enabled,5,5,5
+rule_321,2024-06-28T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,4,2624229,database,0,True,2024-06-30T00:00:00,6,True,enabled,2,3,2
+rule_322,2024-06-22T00:00:00,2024-06-28T00:00:00,3,Stability,Decreased Security,2,3,8221973,performance,1,True,2024-06-23T00:00:00,9,True,enabled,4,5,5
+rule_323,2024-06-14T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,3,7828037,availability,0,True,2024-06-19T00:00:00,7,True,enabled,2,3,2
+rule_324,2024-06-13T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,1,1794769,security,1,False,2024-06-26T00:00:00,6,True,enabled,2,4,3
+rule_325,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,3,1660544,performance,1,True,2024-06-30T00:00:00,1,True,enabled,2,5,2
+rule_326,2024-06-16T00:00:00,2024-06-28T00:00:00,2,Security,Best Practice,1,5,7678218,tuning,3,False,2024-06-17T00:00:00,8,True,enabled,4,2,5
+rule_327,2024-06-04T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,8810893,availability,3,False,2024-06-23T00:00:00,6,True,enabled,4,2,1
+rule_328,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,4,1107101,hardening,3,True,2024-06-29T00:00:00,5,True,enabled,3,2,3
+rule_329,2024-06-17T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,3,7779225,logging,2,False,2024-06-22T00:00:00,9,True,enabled,2,3,2
+rule_330,2024-06-16T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,1,2326541,hardening,3,False,2024-06-28T00:00:00,2,True,enabled,2,3,5
+rule_331,2024-06-07T00:00:00,2024-06-10T00:00:00,3,Stability,Database Performance Loss,2,3,8045916,database,1,True,2024-06-17T00:00:00,1,True,enabled,2,2,3
+rule_332,2024-06-03T00:00:00,2024-06-18T00:00:00,1,Availability,Best Practice,1,2,7853146,security,3,False,2024-06-04T00:00:00,7,True,enabled,2,1,1
+rule_333,2024-06-25T00:00:00,2024-06-26T00:00:00,4,Performance,Decreased Security,2,3,1878153,stability,0,False,2024-06-26T00:00:00,4,True,enabled,3,0,2
+rule_334,2024-06-14T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,4,2085254,performance,1,True,2024-06-23T00:00:00,10,True,enabled,3,2,3
+rule_335,2024-06-09T00:00:00,2024-06-15T00:00:00,2,Security,Database Performance Loss,2,3,6576636,database,3,True,2024-06-27T00:00:00,2,True,enabled,3,5,5
+rule_336,2024-06-12T00:00:00,2024-06-16T00:00:00,3,Stability,Best Practice,1,1,3087915,logging,1,True,2024-06-22T00:00:00,10,True,enabled,5,3,5
+rule_337,2024-06-15T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,5,5755948,hardening,2,True,2024-06-17T00:00:00,5,True,enabled,5,5,3
+rule_338,2024-06-12T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,2,5920236,performance,3,False,2024-06-19T00:00:00,5,True,enabled,2,0,4
+rule_339,2024-06-08T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,4,3461975,logging,0,False,2024-06-29T00:00:00,3,True,enabled,5,3,2
+rule_340,2024-06-08T00:00:00,2024-06-10T00:00:00,1,Availability,Decreased Security,2,5,8075707,security,1,False,2024-06-17T00:00:00,5,True,enabled,1,5,0
+rule_341,2024-06-15T00:00:00,2024-06-15T00:00:00,3,Stability,Best Practice,1,2,3152667,stability,0,True,2024-06-18T00:00:00,7,True,enabled,2,5,5
+rule_342,2024-06-02T00:00:00,2024-06-27T00:00:00,3,Stability,Best Practice,1,4,2304191,security,2,True,2024-06-28T00:00:00,1,True,enabled,2,1,1
+rule_343,2024-06-16T00:00:00,2024-06-16T00:00:00,1,Availability,Database Performance Loss,2,2,5572735,hardening,0,True,2024-06-28T00:00:00,8,True,enabled,4,1,0
+rule_344,2024-06-10T00:00:00,2024-06-11T00:00:00,2,Security,Best Practice,1,1,4587965,hardening,3,False,2024-06-28T00:00:00,6,True,enabled,4,2,0
+rule_345,2024-06-15T00:00:00,2024-06-17T00:00:00,3,Stability,Decreased Security,2,4,3275454,availability,0,True,2024-06-20T00:00:00,10,True,enabled,4,2,5
+rule_346,2024-06-25T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,5,5784731,security,1,True,2024-06-30T00:00:00,1,True,enabled,1,1,1
+rule_347,2024-06-12T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,2,5542167,performance,0,True,2024-06-13T00:00:00,8,True,enabled,4,4,0
+rule_348,2024-06-16T00:00:00,2024-06-17T00:00:00,2,Security,Decreased Security,2,2,6456276,availability,3,False,2024-06-26T00:00:00,7,True,enabled,4,5,3
+rule_349,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,2,4573892,stability,1,False,2024-06-30T00:00:00,8,True,enabled,3,4,3
+rule_350,2024-06-13T00:00:00,2024-06-20T00:00:00,3,Stability,Decreased Security,2,4,5429830,tuning,0,True,2024-06-19T00:00:00,9,True,enabled,4,3,4
+rule_351,2024-06-20T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,4,4900476,hardening,2,True,2024-06-20T00:00:00,5,True,enabled,5,3,0
+rule_352,2024-06-02T00:00:00,2024-06-12T00:00:00,4,Performance,Database Performance Loss,2,1,1444682,logging,2,True,2024-06-12T00:00:00,5,True,enabled,3,0,3
+rule_353,2024-06-01T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,3,8656465,security,3,True,2024-06-19T00:00:00,4,True,enabled,4,4,5
+rule_354,2024-06-17T00:00:00,2024-06-23T00:00:00,1,Availability,Best Practice,1,3,7989683,security,3,True,2024-06-28T00:00:00,10,True,enabled,3,5,3
+rule_355,2024-06-01T00:00:00,2024-06-28T00:00:00,2,Security,Best Practice,1,5,9689421,tuning,2,True,2024-06-17T00:00:00,3,True,enabled,1,5,3
+rule_356,2024-06-23T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,5,1619216,stability,3,False,2024-06-23T00:00:00,10,True,enabled,3,0,4
+rule_357,2024-06-28T00:00:00,2024-06-28T00:00:00,3,Stability,Decreased Security,2,3,9402930,availability,0,True,2024-06-29T00:00:00,9,True,enabled,3,1,3
+rule_358,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,5,1873414,logging,3,False,2024-06-30T00:00:00,8,True,enabled,2,4,2
+rule_359,2024-06-07T00:00:00,2024-06-16T00:00:00,2,Security,Best Practice,1,5,8783892,database,1,True,2024-06-27T00:00:00,4,True,enabled,4,1,2
+rule_360,2024-06-29T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,5,3622282,logging,1,True,2024-06-30T00:00:00,3,True,enabled,1,3,3
+rule_361,2024-06-04T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,1,9042730,logging,2,True,2024-06-05T00:00:00,8,True,enabled,5,0,2
+rule_362,2024-06-23T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,1,6213866,performance,0,True,2024-06-30T00:00:00,10,True,enabled,4,4,0
+rule_363,2024-06-16T00:00:00,2024-06-17T00:00:00,3,Stability,Decreased Security,2,3,8283778,database,1,True,2024-06-26T00:00:00,5,True,enabled,5,2,3
+rule_364,2024-06-29T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,4,3450343,stability,1,False,2024-06-29T00:00:00,7,True,enabled,3,4,1
+rule_365,2024-06-19T00:00:00,2024-06-26T00:00:00,2,Security,Best Practice,1,1,9202327,database,3,False,2024-06-30T00:00:00,8,True,enabled,5,4,1
+rule_366,2024-06-25T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,3,2918000,security,3,True,2024-06-30T00:00:00,8,True,enabled,3,3,1
+rule_367,2024-06-23T00:00:00,2024-06-27T00:00:00,2,Security,Decreased Security,2,3,9610742,security,2,True,2024-06-29T00:00:00,2,True,enabled,5,5,0
+rule_368,2024-06-15T00:00:00,2024-06-20T00:00:00,1,Availability,Database Performance Loss,2,4,9567549,tuning,1,True,2024-06-30T00:00:00,5,True,enabled,3,0,4
+rule_369,2024-06-20T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,1,4351353,availability,2,False,2024-06-27T00:00:00,8,True,enabled,5,4,3
+rule_370,2024-06-24T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,2,5942516,hardening,3,True,2024-06-30T00:00:00,9,True,enabled,4,5,3
+rule_371,2024-06-20T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,1,8781046,database,1,True,2024-06-29T00:00:00,9,True,enabled,2,5,0
+rule_372,2024-06-27T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,3,4019991,performance,1,True,2024-06-30T00:00:00,3,True,enabled,1,5,5
+rule_373,2024-06-16T00:00:00,2024-06-21T00:00:00,4,Performance,Best Practice,1,2,1204407,security,2,True,2024-06-27T00:00:00,7,True,enabled,4,0,0
+rule_374,2024-06-02T00:00:00,2024-06-10T00:00:00,3,Stability,Database Performance Loss,2,5,9115697,performance,3,True,2024-06-10T00:00:00,8,True,enabled,2,2,4
+rule_375,2024-06-11T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,3,6677806,logging,1,False,2024-06-16T00:00:00,7,True,enabled,4,3,3
+rule_376,2024-06-04T00:00:00,2024-06-20T00:00:00,4,Performance,Decreased Security,2,4,5141543,stability,0,True,2024-06-21T00:00:00,1,True,enabled,2,5,0
+rule_377,2024-06-14T00:00:00,2024-06-20T00:00:00,2,Security,Decreased Security,2,2,8095920,security,3,True,2024-06-28T00:00:00,10,True,enabled,4,4,5
+rule_378,2024-06-05T00:00:00,2024-06-23T00:00:00,1,Availability,Database Performance Loss,2,1,8087045,tuning,2,True,2024-06-27T00:00:00,7,True,enabled,2,2,0
+rule_379,2024-06-15T00:00:00,2024-06-23T00:00:00,2,Security,Database Performance Loss,2,3,3716189,database,3,True,2024-06-15T00:00:00,6,True,enabled,1,2,4
+rule_380,2024-06-03T00:00:00,2024-06-16T00:00:00,2,Security,Decreased Security,2,1,9467126,hardening,0,False,2024-06-14T00:00:00,10,True,enabled,1,2,3
+rule_381,2024-06-23T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,2,8288715,performance,2,False,2024-06-29T00:00:00,5,True,enabled,5,5,0
+rule_382,2024-06-25T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,5,7686513,tuning,1,True,2024-06-30T00:00:00,1,True,enabled,4,4,1
+rule_383,2024-06-26T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,1,8068388,availability,0,False,2024-06-30T00:00:00,8,True,enabled,2,4,4
+rule_384,2024-06-03T00:00:00,2024-06-09T00:00:00,2,Security,Decreased Security,2,1,6875672,tuning,0,True,2024-06-22T00:00:00,3,True,enabled,4,4,0
+rule_385,2024-06-22T00:00:00,2024-06-28T00:00:00,3,Stability,Decreased Security,2,3,1156792,security,1,False,2024-06-29T00:00:00,10,True,enabled,2,5,1
+rule_386,2024-06-10T00:00:00,2024-06-16T00:00:00,3,Stability,Database Performance Loss,2,1,3505418,security,2,False,2024-06-29T00:00:00,1,True,enabled,1,0,5
+rule_387,2024-06-10T00:00:00,2024-06-15T00:00:00,1,Availability,Best Practice,1,1,9009727,tuning,0,False,2024-06-18T00:00:00,4,True,enabled,4,3,2
+rule_388,2024-06-09T00:00:00,2024-06-18T00:00:00,3,Stability,Database Performance Loss,2,4,3572747,database,0,True,2024-06-20T00:00:00,9,True,enabled,5,5,5
+rule_389,2024-06-19T00:00:00,2024-06-19T00:00:00,2,Security,Best Practice,1,3,4479709,logging,1,True,2024-06-20T00:00:00,7,True,enabled,5,3,4
+rule_390,2024-06-26T00:00:00,2024-06-26T00:00:00,2,Security,Decreased Security,2,4,4323515,hardening,2,False,2024-06-29T00:00:00,4,True,enabled,5,2,3
+rule_391,2024-06-07T00:00:00,2024-06-07T00:00:00,1,Availability,Database Performance Loss,2,1,9679713,stability,0,False,2024-06-30T00:00:00,7,True,enabled,4,5,1
+rule_392,2024-06-16T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,1,5279547,hardening,1,True,2024-06-17T00:00:00,4,True,enabled,4,2,5
+rule_393,2024-06-19T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,1,6466566,tuning,1,False,2024-06-27T00:00:00,3,True,enabled,4,0,4
+rule_394,2024-06-20T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,3,9944781,logging,2,True,2024-06-24T00:00:00,3,True,enabled,2,4,4
+rule_395,2024-06-22T00:00:00,2024-06-22T00:00:00,2,Security,Database Performance Loss,2,3,1807505,logging,2,False,2024-06-22T00:00:00,9,True,enabled,4,3,2
+rule_396,2024-06-20T00:00:00,2024-06-22T00:00:00,2,Security,Database Performance Loss,2,4,9879600,tuning,0,False,2024-06-20T00:00:00,9,True,enabled,5,1,5
+rule_397,2024-06-18T00:00:00,2024-06-27T00:00:00,1,Availability,Database Performance Loss,2,4,5922268,security,3,True,2024-06-28T00:00:00,9,True,enabled,1,4,1
+rule_398,2024-06-10T00:00:00,2024-06-10T00:00:00,2,Security,Database Performance Loss,2,5,2657508,stability,0,True,2024-06-15T00:00:00,7,True,enabled,1,1,4
+rule_399,2024-06-16T00:00:00,2024-06-25T00:00:00,4,Performance,Best Practice,1,5,6824022,availability,0,True,2024-06-24T00:00:00,5,True,enabled,3,0,3
+rule_400,2024-06-13T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,5,8491238,security,2,True,2024-06-26T00:00:00,6,True,enabled,4,3,5
+rule_401,2024-06-23T00:00:00,2024-06-28T00:00:00,2,Security,Best Practice,1,2,9521841,database,2,True,2024-06-26T00:00:00,9,True,enabled,3,4,2
+rule_402,2024-06-19T00:00:00,2024-06-19T00:00:00,4,Performance,Decreased Security,2,5,5168534,tuning,2,False,2024-06-28T00:00:00,8,True,enabled,5,0,2
+rule_403,2024-06-08T00:00:00,2024-06-29T00:00:00,4,Performance,Decreased Security,2,2,7585822,tuning,1,False,2024-06-13T00:00:00,7,True,enabled,1,2,0
+rule_404,2024-06-09T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,4,7551978,performance,2,False,2024-06-21T00:00:00,6,True,enabled,4,3,3
+rule_405,2024-06-06T00:00:00,2024-06-16T00:00:00,4,Performance,Best Practice,1,4,9259055,logging,0,False,2024-06-12T00:00:00,3,True,enabled,4,3,4
+rule_406,2024-06-03T00:00:00,2024-06-19T00:00:00,3,Stability,Database Performance Loss,2,4,5827292,hardening,0,False,2024-06-18T00:00:00,3,True,enabled,5,1,1
+rule_407,2024-06-23T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,3,5682047,security,1,True,2024-06-24T00:00:00,7,True,enabled,2,0,2
+rule_408,2024-06-25T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,3,7342932,database,0,False,2024-06-28T00:00:00,5,True,enabled,2,0,1
+rule_409,2024-06-16T00:00:00,2024-06-18T00:00:00,1,Availability,Decreased Security,2,4,9633059,hardening,2,True,2024-06-24T00:00:00,9,True,enabled,2,0,4
+rule_410,2024-06-08T00:00:00,2024-06-26T00:00:00,2,Security,Database Performance Loss,2,3,4471645,security,2,True,2024-06-18T00:00:00,1,True,enabled,2,2,2
+rule_411,2024-06-21T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,5,6057741,security,0,False,2024-06-25T00:00:00,7,True,enabled,3,2,0
+rule_412,2024-06-21T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,1,2626776,availability,0,False,2024-06-24T00:00:00,2,True,enabled,3,1,3
+rule_413,2024-06-21T00:00:00,2024-06-22T00:00:00,3,Stability,Decreased Security,2,5,6067462,stability,0,False,2024-06-27T00:00:00,7,True,enabled,3,1,4
+rule_414,2024-06-09T00:00:00,2024-06-09T00:00:00,3,Stability,Decreased Security,2,2,7890353,database,1,False,2024-06-16T00:00:00,8,True,enabled,2,5,1
+rule_415,2024-06-20T00:00:00,2024-06-20T00:00:00,1,Availability,Decreased Security,2,5,5338891,database,1,False,2024-06-27T00:00:00,1,True,enabled,3,2,1
+rule_416,2024-06-18T00:00:00,2024-06-27T00:00:00,3,Stability,Decreased Security,2,2,5530680,logging,0,False,2024-06-29T00:00:00,4,True,enabled,2,0,2
+rule_417,2024-06-29T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,3627573,logging,2,True,2024-06-29T00:00:00,4,True,enabled,2,4,4
+rule_418,2024-06-22T00:00:00,2024-06-22T00:00:00,1,Availability,Decreased Security,2,4,9477640,security,0,False,2024-06-29T00:00:00,7,True,enabled,5,2,2
+rule_419,2024-06-11T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,5,2361040,security,1,False,2024-06-19T00:00:00,4,True,enabled,4,0,0
+rule_420,2024-06-23T00:00:00,2024-06-24T00:00:00,2,Security,Decreased Security,2,4,6175825,stability,1,True,2024-06-30T00:00:00,5,True,enabled,2,4,3
+rule_421,2024-06-28T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,3,3084873,tuning,3,False,2024-06-28T00:00:00,5,True,enabled,3,0,5
+rule_422,2024-06-23T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,5,7579277,hardening,0,True,2024-06-26T00:00:00,8,True,enabled,2,5,0
+rule_423,2024-06-28T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,1,3804083,availability,0,False,2024-06-29T00:00:00,8,True,enabled,1,5,0
+rule_424,2024-06-07T00:00:00,2024-06-21T00:00:00,2,Security,Best Practice,1,1,3743102,performance,2,False,2024-06-19T00:00:00,2,True,enabled,3,2,3
+rule_425,2024-06-08T00:00:00,2024-06-25T00:00:00,4,Performance,Decreased Security,2,4,4110644,availability,0,True,2024-06-27T00:00:00,1,True,enabled,1,5,0
+rule_426,2024-06-20T00:00:00,2024-06-20T00:00:00,3,Stability,Database Performance Loss,2,1,7533097,security,3,True,2024-06-28T00:00:00,3,True,enabled,1,5,5
+rule_427,2024-06-21T00:00:00,2024-06-21T00:00:00,4,Performance,Database Performance Loss,2,4,5010128,security,3,False,2024-06-27T00:00:00,8,True,enabled,4,2,5
+rule_428,2024-06-20T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,5,4685078,tuning,3,False,2024-06-30T00:00:00,3,True,enabled,4,1,1
+rule_429,2024-06-29T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,4,5018216,database,3,False,2024-06-29T00:00:00,6,True,enabled,5,5,3
+rule_430,2024-06-16T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,5,6734425,stability,0,False,2024-06-27T00:00:00,10,True,enabled,4,4,0
+rule_431,2024-06-13T00:00:00,2024-06-21T00:00:00,2,Security,Decreased Security,2,1,1690728,availability,0,False,2024-06-24T00:00:00,3,True,enabled,1,0,0
+rule_432,2024-06-23T00:00:00,2024-06-23T00:00:00,1,Availability,Best Practice,1,3,5702829,stability,0,False,2024-06-28T00:00:00,2,True,enabled,2,2,2
+rule_433,2024-06-20T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,1,5685822,tuning,0,True,2024-06-25T00:00:00,8,True,enabled,2,2,0
+rule_434,2024-06-26T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,4,6689618,security,2,False,2024-06-28T00:00:00,1,True,enabled,5,1,3
+rule_435,2024-06-13T00:00:00,2024-06-19T00:00:00,1,Availability,Best Practice,1,4,1535741,logging,2,True,2024-06-16T00:00:00,6,True,enabled,4,3,1
+rule_436,2024-06-10T00:00:00,2024-06-10T00:00:00,1,Availability,Database Performance Loss,2,2,5340112,database,1,True,2024-06-14T00:00:00,2,True,enabled,2,1,0
+rule_437,2024-06-29T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,2,2596411,hardening,0,True,2024-06-29T00:00:00,8,True,enabled,5,2,2
+rule_438,2024-06-01T00:00:00,2024-06-07T00:00:00,3,Stability,Database Performance Loss,2,3,4420462,logging,0,False,2024-06-10T00:00:00,7,True,enabled,4,0,1
+rule_439,2024-06-19T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,2,6074406,hardening,0,True,2024-06-25T00:00:00,9,True,enabled,5,3,4
+rule_440,2024-06-17T00:00:00,2024-06-18T00:00:00,1,Availability,Database Performance Loss,2,5,5854751,stability,1,True,2024-06-27T00:00:00,9,True,enabled,5,4,0
+rule_441,2024-06-19T00:00:00,2024-06-19T00:00:00,2,Security,Decreased Security,2,2,2856139,performance,0,False,2024-06-26T00:00:00,6,True,enabled,2,5,2
+rule_442,2024-06-27T00:00:00,2024-06-28T00:00:00,2,Security,Decreased Security,2,5,1541804,hardening,1,True,2024-06-29T00:00:00,5,True,enabled,4,1,2
+rule_443,2024-06-07T00:00:00,2024-06-08T00:00:00,1,Availability,Best Practice,1,5,4567722,database,3,False,2024-06-17T00:00:00,2,True,enabled,3,4,1
+rule_444,2024-06-23T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,2,9636049,tuning,3,False,2024-06-30T00:00:00,2,True,enabled,5,1,0
+rule_445,2024-06-21T00:00:00,2024-06-22T00:00:00,1,Availability,Database Performance Loss,2,1,1601693,database,0,False,2024-06-24T00:00:00,6,True,enabled,5,1,5
+rule_446,2024-06-18T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,2,4513238,stability,3,False,2024-06-28T00:00:00,8,True,enabled,5,1,0
+rule_447,2024-06-26T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,4,7141420,availability,3,True,2024-06-26T00:00:00,10,True,enabled,4,5,5
+rule_448,2024-06-19T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,3,1929818,logging,3,True,2024-06-23T00:00:00,2,True,enabled,3,0,0
+rule_449,2024-06-26T00:00:00,2024-06-27T00:00:00,1,Availability,Decreased Security,2,5,3763306,hardening,3,False,2024-06-29T00:00:00,5,True,enabled,5,5,5
+rule_450,2024-06-08T00:00:00,2024-06-12T00:00:00,1,Availability,Best Practice,1,3,1139863,security,2,True,2024-06-17T00:00:00,3,True,enabled,4,5,4
+rule_451,2024-06-21T00:00:00,2024-06-21T00:00:00,4,Performance,Best Practice,1,4,4288602,database,1,True,2024-06-24T00:00:00,2,True,enabled,2,4,1
+rule_452,2024-06-30T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,3,1877041,stability,3,False,2024-06-30T00:00:00,5,True,enabled,4,0,4
+rule_453,2024-06-20T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,2,9603277,database,0,False,2024-06-29T00:00:00,10,True,enabled,5,1,1
+rule_454,2024-06-13T00:00:00,2024-06-16T00:00:00,1,Availability,Best Practice,1,5,3864371,tuning,0,False,2024-06-17T00:00:00,5,True,enabled,2,0,2
+rule_455,2024-06-23T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,1,8331372,hardening,0,True,2024-06-26T00:00:00,1,True,enabled,2,4,1
+rule_456,2024-06-06T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,3,5841939,tuning,3,True,2024-06-17T00:00:00,5,True,enabled,5,1,0
+rule_457,2024-06-23T00:00:00,2024-06-24T00:00:00,4,Performance,Decreased Security,2,1,5232733,tuning,2,False,2024-06-24T00:00:00,4,True,enabled,1,0,4
+rule_458,2024-06-12T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,5,9653447,logging,0,True,2024-06-22T00:00:00,2,True,enabled,5,4,3
+rule_459,2024-06-20T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,3,8594953,stability,3,False,2024-06-25T00:00:00,2,True,enabled,5,5,5
+rule_460,2024-06-10T00:00:00,2024-06-17T00:00:00,4,Performance,Decreased Security,2,2,9704378,performance,0,True,2024-06-14T00:00:00,7,True,enabled,1,0,1
+rule_461,2024-06-29T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,4,5502870,database,2,False,2024-06-29T00:00:00,9,True,enabled,3,0,1
+rule_462,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,1,1586740,security,2,True,2024-06-30T00:00:00,9,True,enabled,1,4,2
+rule_463,2024-06-24T00:00:00,2024-06-26T00:00:00,2,Security,Decreased Security,2,2,3407790,logging,1,True,2024-06-24T00:00:00,6,True,enabled,4,4,2
+rule_464,2024-06-25T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,4,9244335,availability,2,False,2024-06-26T00:00:00,6,True,enabled,4,3,1
+rule_465,2024-06-21T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,2,5292224,availability,2,False,2024-06-30T00:00:00,6,True,enabled,2,5,5
+rule_466,2024-06-04T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,2,6274984,performance,1,False,2024-06-22T00:00:00,3,True,enabled,1,3,5
+rule_467,2024-06-07T00:00:00,2024-06-25T00:00:00,2,Security,Database Performance Loss,2,1,4988024,security,0,False,2024-06-29T00:00:00,7,True,enabled,4,4,5
+rule_468,2024-06-27T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,2,1122731,logging,2,True,2024-06-27T00:00:00,8,True,enabled,5,0,5
+rule_469,2024-06-16T00:00:00,2024-06-17T00:00:00,1,Availability,Database Performance Loss,2,5,9606438,security,1,False,2024-06-22T00:00:00,9,True,enabled,3,0,4
+rule_470,2024-06-02T00:00:00,2024-06-08T00:00:00,2,Security,Database Performance Loss,2,3,5742278,logging,1,True,2024-06-06T00:00:00,3,True,enabled,2,2,0
+rule_471,2024-06-17T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,1,4143279,stability,2,False,2024-06-29T00:00:00,9,True,enabled,4,1,4
+rule_472,2024-06-08T00:00:00,2024-06-19T00:00:00,4,Performance,Database Performance Loss,2,3,7481666,database,1,False,2024-06-18T00:00:00,7,True,enabled,2,0,5
+rule_473,2024-06-15T00:00:00,2024-06-17T00:00:00,2,Security,Best Practice,1,5,9951558,hardening,0,False,2024-06-21T00:00:00,3,True,enabled,4,0,3
+rule_474,2024-06-12T00:00:00,2024-06-21T00:00:00,4,Performance,Best Practice,1,1,4328592,availability,0,True,2024-06-20T00:00:00,8,True,enabled,4,2,3
+rule_475,2024-06-16T00:00:00,2024-06-22T00:00:00,2,Security,Best Practice,1,5,6439268,tuning,2,False,2024-06-27T00:00:00,1,True,enabled,3,2,1
+rule_476,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,5,3626367,availability,2,False,2024-06-30T00:00:00,10,True,enabled,4,1,3
+rule_477,2024-06-14T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,2,3314291,database,1,False,2024-06-16T00:00:00,8,True,enabled,2,0,2
+rule_478,2024-06-06T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,4,7322754,tuning,0,False,2024-06-13T00:00:00,6,True,enabled,5,4,5
+rule_479,2024-06-19T00:00:00,2024-06-21T00:00:00,4,Performance,Database Performance Loss,2,1,6025510,security,3,False,2024-06-29T00:00:00,7,True,enabled,1,1,5
+rule_480,2024-06-01T00:00:00,2024-06-02T00:00:00,2,Security,Decreased Security,2,2,4029552,hardening,0,False,2024-06-18T00:00:00,7,True,enabled,5,4,0
+rule_481,2024-06-06T00:00:00,2024-06-13T00:00:00,4,Performance,Best Practice,1,2,6377910,database,3,True,2024-06-27T00:00:00,7,True,enabled,3,0,0
+rule_482,2024-06-05T00:00:00,2024-06-26T00:00:00,4,Performance,Database Performance Loss,2,5,5922032,hardening,1,True,2024-06-23T00:00:00,8,True,enabled,5,2,5
+rule_483,2024-06-24T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,3,9525904,tuning,2,False,2024-06-25T00:00:00,7,True,enabled,4,2,2
+rule_484,2024-06-29T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,2,1415648,stability,0,True,2024-06-30T00:00:00,7,True,enabled,3,2,1
+rule_485,2024-06-29T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,5,3106582,security,1,True,2024-06-29T00:00:00,9,True,enabled,4,3,3
+rule_486,2024-06-25T00:00:00,2024-06-27T00:00:00,1,Availability,Decreased Security,2,5,6439693,database,1,True,2024-06-30T00:00:00,4,True,enabled,4,1,0
+rule_487,2024-06-04T00:00:00,2024-06-15T00:00:00,1,Availability,Database Performance Loss,2,4,7305574,logging,0,False,2024-06-17T00:00:00,5,True,enabled,4,4,5
+rule_488,2024-06-29T00:00:00,2024-06-29T00:00:00,4,Performance,Decreased Security,2,1,3689884,availability,3,True,2024-06-29T00:00:00,2,True,enabled,1,3,3
+rule_489,2024-06-29T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,5,4874088,database,3,False,2024-06-30T00:00:00,8,True,enabled,5,5,4
+rule_490,2024-06-15T00:00:00,2024-06-21T00:00:00,4,Performance,Best Practice,1,4,6331870,stability,2,True,2024-06-29T00:00:00,6,True,enabled,2,0,4
+rule_491,2024-06-16T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,3,8067670,stability,1,True,2024-06-21T00:00:00,8,True,enabled,1,5,5
+rule_492,2024-06-17T00:00:00,2024-06-28T00:00:00,4,Performance,Best Practice,1,5,2541154,logging,3,True,2024-06-21T00:00:00,3,True,enabled,5,2,3
+rule_493,2024-06-20T00:00:00,2024-06-22T00:00:00,3,Stability,Database Performance Loss,2,3,4416543,performance,0,True,2024-06-29T00:00:00,1,True,enabled,4,0,2
+rule_494,2024-06-07T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,5,2562544,database,0,True,2024-06-17T00:00:00,8,True,enabled,4,4,0
+rule_495,2024-06-08T00:00:00,2024-06-14T00:00:00,2,Security,Database Performance Loss,2,5,2384289,tuning,0,True,2024-06-16T00:00:00,4,True,enabled,3,1,4
+rule_496,2024-06-02T00:00:00,2024-06-03T00:00:00,4,Performance,Best Practice,1,1,9475291,logging,3,False,2024-06-26T00:00:00,6,True,enabled,1,1,4
+rule_497,2024-06-01T00:00:00,2024-06-02T00:00:00,3,Stability,Best Practice,1,4,4833864,tuning,0,False,2024-06-07T00:00:00,4,True,enabled,1,4,2
+rule_498,2024-06-02T00:00:00,2024-06-19T00:00:00,4,Performance,Decreased Security,2,4,9552581,stability,2,False,2024-06-19T00:00:00,5,True,enabled,2,5,0
+rule_499,2024-06-28T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,1,1979545,stability,3,False,2024-06-29T00:00:00,8,True,enabled,1,4,2
+rule_500,2024-06-01T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,3,3587238,performance,0,True,2024-06-02T00:00:00,5,True,enabled,5,1,5
+rule_501,2024-06-15T00:00:00,2024-06-24T00:00:00,2,Security,Decreased Security,2,1,2388756,logging,0,True,2024-06-19T00:00:00,9,True,enabled,4,5,1
+rule_502,2024-06-04T00:00:00,2024-06-12T00:00:00,4,Performance,Best Practice,1,3,2231615,stability,2,False,2024-06-28T00:00:00,7,True,enabled,3,4,3
+rule_503,2024-06-27T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,5,9014682,availability,2,True,2024-06-27T00:00:00,5,True,enabled,1,1,5
+rule_504,2024-06-12T00:00:00,2024-06-24T00:00:00,3,Stability,Decreased Security,2,2,7535576,database,0,False,2024-06-29T00:00:00,5,True,enabled,4,4,3
+rule_505,2024-06-06T00:00:00,2024-06-18T00:00:00,4,Performance,Best Practice,1,5,2089937,logging,0,False,2024-06-23T00:00:00,9,True,enabled,3,3,1
+rule_506,2024-06-17T00:00:00,2024-06-22T00:00:00,3,Stability,Best Practice,1,5,4712508,hardening,2,False,2024-06-24T00:00:00,8,True,enabled,3,3,2
+rule_507,2024-06-26T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,3,6112462,availability,1,False,2024-06-28T00:00:00,10,True,enabled,3,0,5
+rule_508,2024-06-19T00:00:00,2024-06-23T00:00:00,3,Stability,Best Practice,1,1,7020177,stability,1,True,2024-06-27T00:00:00,10,True,enabled,5,1,0
+rule_509,2024-06-04T00:00:00,2024-06-16T00:00:00,3,Stability,Decreased Security,2,3,3297319,security,1,False,2024-06-07T00:00:00,9,True,enabled,3,3,1
+rule_510,2024-06-11T00:00:00,2024-06-14T00:00:00,2,Security,Decreased Security,2,5,9028195,hardening,2,False,2024-06-13T00:00:00,5,True,enabled,2,3,1
+rule_511,2024-06-02T00:00:00,2024-06-02T00:00:00,2,Security,Best Practice,1,2,6680921,performance,0,False,2024-06-08T00:00:00,6,True,enabled,5,0,4
+rule_512,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,4,7707102,stability,1,True,2024-06-30T00:00:00,1,True,enabled,4,0,4
+rule_513,2024-06-21T00:00:00,2024-06-28T00:00:00,4,Performance,Best Practice,1,4,3370930,availability,2,True,2024-06-29T00:00:00,5,True,enabled,5,4,2
+rule_514,2024-06-14T00:00:00,2024-06-25T00:00:00,1,Availability,Best Practice,1,3,1500855,stability,2,True,2024-06-26T00:00:00,2,True,enabled,1,3,5
+rule_515,2024-06-09T00:00:00,2024-06-16T00:00:00,1,Availability,Database Performance Loss,2,2,2929095,hardening,0,False,2024-06-11T00:00:00,9,True,enabled,1,1,2
+rule_516,2024-06-14T00:00:00,2024-06-15T00:00:00,1,Availability,Best Practice,1,3,4210951,database,2,False,2024-06-22T00:00:00,4,True,enabled,5,2,1
+rule_517,2024-06-27T00:00:00,2024-06-27T00:00:00,4,Performance,Best Practice,1,2,4624548,availability,2,False,2024-06-30T00:00:00,1,True,enabled,2,2,0
+rule_518,2024-06-04T00:00:00,2024-06-22T00:00:00,3,Stability,Decreased Security,2,5,8999649,performance,1,True,2024-06-27T00:00:00,10,True,enabled,3,3,2
+rule_519,2024-06-12T00:00:00,2024-06-25T00:00:00,1,Availability,Decreased Security,2,5,3277020,security,1,True,2024-06-28T00:00:00,1,True,enabled,1,2,1
+rule_520,2024-06-28T00:00:00,2024-06-28T00:00:00,1,Availability,Database Performance Loss,2,2,5386170,logging,3,True,2024-06-28T00:00:00,2,True,enabled,4,5,5
+rule_521,2024-06-23T00:00:00,2024-06-26T00:00:00,2,Security,Best Practice,1,5,9802328,performance,2,False,2024-06-28T00:00:00,2,True,enabled,5,2,3
+rule_522,2024-06-09T00:00:00,2024-06-25T00:00:00,1,Availability,Decreased Security,2,4,9469300,performance,0,False,2024-06-19T00:00:00,5,True,enabled,3,5,1
+rule_523,2024-06-01T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,3,3197080,performance,2,True,2024-06-30T00:00:00,6,True,enabled,3,4,0
+rule_524,2024-06-28T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,3,8409119,stability,3,False,2024-06-29T00:00:00,5,True,enabled,1,1,3
+rule_525,2024-06-05T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,4,1961142,security,3,True,2024-06-30T00:00:00,9,True,enabled,3,4,1
+rule_526,2024-06-23T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,4,2425379,performance,3,True,2024-06-23T00:00:00,4,True,enabled,4,1,3
+rule_527,2024-06-11T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,4,8363408,availability,2,True,2024-06-17T00:00:00,9,True,enabled,1,2,1
+rule_528,2024-06-16T00:00:00,2024-06-17T00:00:00,4,Performance,Best Practice,1,2,9228806,database,2,False,2024-06-23T00:00:00,2,True,enabled,5,5,0
+rule_529,2024-06-10T00:00:00,2024-06-22T00:00:00,4,Performance,Best Practice,1,4,8956722,database,0,False,2024-06-20T00:00:00,2,True,enabled,3,2,1
+rule_530,2024-06-21T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,1,8965385,availability,1,True,2024-06-24T00:00:00,1,True,enabled,1,5,5
+rule_531,2024-06-15T00:00:00,2024-06-27T00:00:00,4,Performance,Decreased Security,2,5,8864640,stability,2,False,2024-06-23T00:00:00,10,True,enabled,5,3,0
+rule_532,2024-06-24T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,4,7200235,tuning,2,True,2024-06-25T00:00:00,9,True,enabled,3,1,0
+rule_533,2024-06-23T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,3,8058429,security,0,False,2024-06-28T00:00:00,9,True,enabled,4,2,4
+rule_534,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,9036056,tuning,0,True,2024-06-30T00:00:00,6,True,enabled,2,3,0
+rule_535,2024-06-23T00:00:00,2024-06-25T00:00:00,4,Performance,Decreased Security,2,3,6692545,hardening,2,True,2024-06-28T00:00:00,7,True,enabled,2,1,1
+rule_536,2024-06-26T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,1,6657933,availability,3,True,2024-06-28T00:00:00,4,True,enabled,1,5,0
+rule_537,2024-06-25T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,4,6504721,security,0,True,2024-06-25T00:00:00,6,True,enabled,1,3,3
+rule_538,2024-06-14T00:00:00,2024-06-22T00:00:00,1,Availability,Decreased Security,2,1,5855394,stability,3,False,2024-06-26T00:00:00,5,True,enabled,3,1,4
+rule_539,2024-06-10T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,5,9548682,stability,3,True,2024-06-15T00:00:00,10,True,enabled,1,3,1
+rule_540,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,1,7758639,logging,0,False,2024-06-30T00:00:00,2,True,enabled,3,0,1
+rule_541,2024-06-11T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,4,3819595,hardening,3,False,2024-06-20T00:00:00,9,True,enabled,5,1,5
+rule_542,2024-06-28T00:00:00,2024-06-28T00:00:00,4,Performance,Decreased Security,2,5,7806362,logging,3,True,2024-06-30T00:00:00,6,True,enabled,5,5,1
+rule_543,2024-06-04T00:00:00,2024-06-15T00:00:00,1,Availability,Decreased Security,2,5,5981738,availability,1,True,2024-06-20T00:00:00,1,True,enabled,4,3,5
+rule_544,2024-06-22T00:00:00,2024-06-27T00:00:00,2,Security,Decreased Security,2,5,6220247,stability,2,True,2024-06-25T00:00:00,7,True,enabled,3,5,4
+rule_545,2024-06-03T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,1,7501675,security,3,False,2024-06-21T00:00:00,2,True,enabled,2,3,1
+rule_546,2024-06-21T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,5,7297367,security,2,False,2024-06-27T00:00:00,1,True,enabled,5,5,5
+rule_547,2024-06-11T00:00:00,2024-06-11T00:00:00,2,Security,Best Practice,1,1,8126220,stability,3,False,2024-06-16T00:00:00,5,True,enabled,5,4,3
+rule_548,2024-06-10T00:00:00,2024-06-20T00:00:00,1,Availability,Best Practice,1,4,9549627,hardening,3,True,2024-06-27T00:00:00,8,True,enabled,1,2,3
+rule_549,2024-06-14T00:00:00,2024-06-25T00:00:00,1,Availability,Database Performance Loss,2,4,6493345,security,2,False,2024-06-21T00:00:00,5,True,enabled,4,1,3
+rule_550,2024-06-12T00:00:00,2024-06-13T00:00:00,3,Stability,Database Performance Loss,2,2,9911227,logging,0,False,2024-06-30T00:00:00,5,True,enabled,4,3,4
+rule_551,2024-06-17T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,3,5379285,logging,3,False,2024-06-29T00:00:00,9,True,enabled,1,4,4
+rule_552,2024-06-05T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,7151793,database,0,False,2024-06-12T00:00:00,3,True,enabled,3,1,3
+rule_553,2024-06-04T00:00:00,2024-06-13T00:00:00,1,Availability,Database Performance Loss,2,5,2850902,hardening,2,False,2024-06-07T00:00:00,8,True,enabled,2,4,5
+rule_554,2024-06-20T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,5,4898692,logging,0,True,2024-06-24T00:00:00,3,True,enabled,3,5,3
+rule_555,2024-06-16T00:00:00,2024-06-16T00:00:00,3,Stability,Best Practice,1,3,4728785,hardening,2,True,2024-06-20T00:00:00,7,True,enabled,4,0,0
+rule_556,2024-06-07T00:00:00,2024-06-18T00:00:00,3,Stability,Decreased Security,2,4,1768291,stability,3,True,2024-06-17T00:00:00,6,True,enabled,1,5,4
+rule_557,2024-06-29T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,1,2818067,hardening,1,True,2024-06-29T00:00:00,3,True,enabled,1,3,2
+rule_558,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,5,2380428,tuning,0,True,2024-06-30T00:00:00,3,True,enabled,5,3,0
+rule_559,2024-06-13T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,5,5290820,tuning,3,True,2024-06-26T00:00:00,10,True,enabled,1,1,3
+rule_560,2024-06-06T00:00:00,2024-06-18T00:00:00,4,Performance,Best Practice,1,1,4464094,security,3,False,2024-06-13T00:00:00,9,True,enabled,5,1,1
+rule_561,2024-06-14T00:00:00,2024-06-27T00:00:00,1,Availability,Database Performance Loss,2,4,7896418,hardening,3,False,2024-06-27T00:00:00,7,True,enabled,5,2,1
+rule_562,2024-06-29T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,1,4696019,database,1,False,2024-06-29T00:00:00,3,True,enabled,1,2,2
+rule_563,2024-06-16T00:00:00,2024-06-26T00:00:00,2,Security,Best Practice,1,5,6361130,database,2,True,2024-06-16T00:00:00,7,True,enabled,2,5,5
+rule_564,2024-06-29T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,5,2690753,availability,1,True,2024-06-29T00:00:00,6,True,enabled,4,2,0
+rule_565,2024-06-26T00:00:00,2024-06-28T00:00:00,4,Performance,Decreased Security,2,1,5215701,database,1,False,2024-06-29T00:00:00,3,True,enabled,1,2,5
+rule_566,2024-06-11T00:00:00,2024-06-19T00:00:00,1,Availability,Decreased Security,2,3,2077352,security,0,True,2024-06-28T00:00:00,10,True,enabled,3,5,5
+rule_567,2024-06-11T00:00:00,2024-06-23T00:00:00,2,Security,Decreased Security,2,4,8946722,logging,3,True,2024-06-26T00:00:00,4,True,enabled,1,0,1
+rule_568,2024-06-05T00:00:00,2024-06-26T00:00:00,3,Stability,Best Practice,1,3,3437891,database,1,True,2024-06-26T00:00:00,3,True,enabled,1,1,0
+rule_569,2024-06-02T00:00:00,2024-06-22T00:00:00,3,Stability,Database Performance Loss,2,2,5761905,availability,1,True,2024-06-09T00:00:00,2,True,enabled,3,0,5
+rule_570,2024-06-26T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,2,9278663,database,3,False,2024-06-30T00:00:00,7,True,enabled,4,3,1
+rule_571,2024-06-16T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,3,5074097,tuning,1,True,2024-06-19T00:00:00,7,True,enabled,3,1,1
+rule_572,2024-06-26T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,4,8703883,hardening,2,True,2024-06-29T00:00:00,6,True,enabled,2,3,4
+rule_573,2024-06-17T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,2,2084544,performance,2,True,2024-06-21T00:00:00,4,True,enabled,4,0,2
+rule_574,2024-06-14T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,1,9482642,hardening,1,True,2024-06-22T00:00:00,6,True,enabled,4,5,5
+rule_575,2024-06-11T00:00:00,2024-06-27T00:00:00,4,Performance,Best Practice,1,2,1867452,stability,3,False,2024-06-12T00:00:00,2,True,enabled,2,0,5
+rule_576,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,3,8330820,availability,1,False,2024-06-30T00:00:00,10,True,enabled,2,1,1
+rule_577,2024-06-26T00:00:00,2024-06-26T00:00:00,2,Security,Decreased Security,2,3,1941584,performance,0,False,2024-06-30T00:00:00,2,True,enabled,3,0,1
+rule_578,2024-06-23T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,4,2249085,logging,2,False,2024-06-26T00:00:00,8,True,enabled,4,3,4
+rule_579,2024-06-21T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,1,6140849,logging,3,False,2024-06-24T00:00:00,8,True,enabled,1,1,3
+rule_580,2024-06-04T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,5,1042412,performance,0,True,2024-06-29T00:00:00,10,True,enabled,4,2,5
+rule_581,2024-06-03T00:00:00,2024-06-14T00:00:00,1,Availability,Decreased Security,2,5,1766032,tuning,2,True,2024-06-20T00:00:00,1,True,enabled,2,0,3
+rule_582,2024-06-04T00:00:00,2024-06-12T00:00:00,1,Availability,Best Practice,1,1,6784655,logging,2,True,2024-06-14T00:00:00,10,True,enabled,5,4,3
+rule_583,2024-06-19T00:00:00,2024-06-25T00:00:00,4,Performance,Database Performance Loss,2,3,4149834,logging,3,True,2024-06-24T00:00:00,8,True,enabled,2,5,2
+rule_584,2024-06-21T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,2,1096365,hardening,0,False,2024-06-30T00:00:00,1,True,enabled,5,4,2
+rule_585,2024-06-25T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,4,8411239,logging,0,False,2024-06-30T00:00:00,1,True,enabled,2,3,4
+rule_586,2024-06-22T00:00:00,2024-06-23T00:00:00,4,Performance,Decreased Security,2,3,3948586,performance,2,False,2024-06-22T00:00:00,7,True,enabled,5,2,3
+rule_587,2024-06-15T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,5,3177432,availability,2,False,2024-06-26T00:00:00,9,True,enabled,4,5,2
+rule_588,2024-06-15T00:00:00,2024-06-23T00:00:00,3,Stability,Decreased Security,2,3,9333092,database,1,False,2024-06-27T00:00:00,3,True,enabled,3,4,1
+rule_589,2024-06-13T00:00:00,2024-06-15T00:00:00,3,Stability,Decreased Security,2,5,6093674,logging,3,False,2024-06-21T00:00:00,3,True,enabled,2,1,1
+rule_590,2024-06-20T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,4,1841775,database,1,False,2024-06-27T00:00:00,4,True,enabled,5,2,5
+rule_591,2024-06-07T00:00:00,2024-06-20T00:00:00,4,Performance,Decreased Security,2,5,7937480,logging,0,True,2024-06-21T00:00:00,8,True,enabled,4,4,0
+rule_592,2024-06-18T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,1,6154558,security,1,True,2024-06-19T00:00:00,9,True,enabled,3,5,3
+rule_593,2024-06-15T00:00:00,2024-06-16T00:00:00,1,Availability,Decreased Security,2,5,6253269,performance,1,True,2024-06-17T00:00:00,7,True,enabled,3,4,2
+rule_594,2024-06-10T00:00:00,2024-06-10T00:00:00,1,Availability,Decreased Security,2,3,8018455,performance,1,False,2024-06-25T00:00:00,3,True,enabled,1,5,1
+rule_595,2024-06-17T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,5,3520787,security,1,False,2024-06-23T00:00:00,3,True,enabled,3,4,3
+rule_596,2024-06-05T00:00:00,2024-06-06T00:00:00,4,Performance,Best Practice,1,3,7209927,logging,2,False,2024-06-26T00:00:00,6,True,enabled,5,0,2
+rule_597,2024-06-21T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,3,2362255,security,2,True,2024-06-27T00:00:00,1,True,enabled,2,1,3
+rule_598,2024-06-27T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,3,9709425,tuning,2,False,2024-06-29T00:00:00,5,True,enabled,3,5,1
+rule_599,2024-06-07T00:00:00,2024-06-17T00:00:00,4,Performance,Database Performance Loss,2,2,8959044,performance,0,True,2024-06-29T00:00:00,2,True,enabled,5,0,3
+rule_600,2024-06-15T00:00:00,2024-06-20T00:00:00,2,Security,Best Practice,1,1,7198060,availability,2,False,2024-06-22T00:00:00,9,True,enabled,5,2,1
+rule_601,2024-06-14T00:00:00,2024-06-16T00:00:00,2,Security,Database Performance Loss,2,3,7259833,availability,1,False,2024-06-25T00:00:00,7,True,enabled,1,0,4
+rule_602,2024-06-28T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,2,5310309,hardening,1,True,2024-06-29T00:00:00,2,True,enabled,2,4,1
+rule_603,2024-06-10T00:00:00,2024-06-15T00:00:00,4,Performance,Decreased Security,2,1,2652012,hardening,1,True,2024-06-15T00:00:00,4,True,enabled,5,5,3
+rule_604,2024-06-22T00:00:00,2024-06-25T00:00:00,4,Performance,Best Practice,1,4,1683146,availability,3,True,2024-06-26T00:00:00,5,True,enabled,1,4,5
+rule_605,2024-06-18T00:00:00,2024-06-26T00:00:00,1,Availability,Best Practice,1,1,1482522,tuning,0,False,2024-06-24T00:00:00,9,True,enabled,1,5,4
+rule_606,2024-06-08T00:00:00,2024-06-08T00:00:00,1,Availability,Decreased Security,2,3,8558170,availability,2,True,2024-06-24T00:00:00,1,True,enabled,3,4,3
+rule_607,2024-06-18T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,1447169,logging,3,True,2024-06-29T00:00:00,2,True,enabled,3,5,5
+rule_608,2024-06-01T00:00:00,2024-06-23T00:00:00,4,Performance,Decreased Security,2,2,9468986,performance,3,False,2024-06-30T00:00:00,10,True,enabled,2,3,5
+rule_609,2024-06-17T00:00:00,2024-06-21T00:00:00,4,Performance,Best Practice,1,1,4566948,stability,1,True,2024-06-18T00:00:00,10,True,enabled,4,0,5
+rule_610,2024-06-09T00:00:00,2024-06-17T00:00:00,1,Availability,Best Practice,1,3,2057141,availability,1,False,2024-06-12T00:00:00,10,True,enabled,5,2,1
+rule_611,2024-06-06T00:00:00,2024-06-07T00:00:00,1,Availability,Best Practice,1,5,1558049,database,2,False,2024-06-22T00:00:00,2,True,enabled,5,2,5
+rule_612,2024-06-14T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,1,7624015,hardening,0,False,2024-06-17T00:00:00,2,True,enabled,1,0,5
+rule_613,2024-06-01T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,5,9033307,logging,1,True,2024-06-29T00:00:00,2,True,enabled,2,0,4
+rule_614,2024-06-20T00:00:00,2024-06-22T00:00:00,4,Performance,Decreased Security,2,4,5431140,security,3,False,2024-06-21T00:00:00,1,True,enabled,5,1,0
+rule_615,2024-06-22T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,4,2520087,database,1,False,2024-06-28T00:00:00,9,True,enabled,1,5,3
+rule_616,2024-06-22T00:00:00,2024-06-24T00:00:00,2,Security,Decreased Security,2,4,5320531,hardening,2,False,2024-06-26T00:00:00,10,True,enabled,4,0,2
+rule_617,2024-06-06T00:00:00,2024-06-17T00:00:00,3,Stability,Best Practice,1,4,9907665,tuning,1,False,2024-06-23T00:00:00,7,True,enabled,2,0,1
+rule_618,2024-06-01T00:00:00,2024-06-01T00:00:00,2,Security,Database Performance Loss,2,3,3923939,database,3,True,2024-06-30T00:00:00,6,True,enabled,3,4,2
+rule_619,2024-06-17T00:00:00,2024-06-17T00:00:00,3,Stability,Decreased Security,2,4,7151218,database,0,True,2024-06-20T00:00:00,2,True,enabled,4,4,4
+rule_620,2024-06-16T00:00:00,2024-06-22T00:00:00,4,Performance,Best Practice,1,1,6265439,tuning,2,True,2024-06-25T00:00:00,6,True,enabled,3,1,2
+rule_621,2024-06-17T00:00:00,2024-06-22T00:00:00,3,Stability,Decreased Security,2,4,4963390,tuning,3,False,2024-06-23T00:00:00,4,True,enabled,1,3,2
+rule_622,2024-06-21T00:00:00,2024-06-25T00:00:00,1,Availability,Database Performance Loss,2,2,7949713,stability,1,False,2024-06-25T00:00:00,2,True,enabled,5,5,1
+rule_623,2024-06-16T00:00:00,2024-06-24T00:00:00,3,Stability,Best Practice,1,5,4621318,logging,1,False,2024-06-28T00:00:00,9,True,enabled,3,3,2
+rule_624,2024-06-08T00:00:00,2024-06-17T00:00:00,1,Availability,Best Practice,1,4,5101927,availability,0,True,2024-06-16T00:00:00,9,True,enabled,4,5,3
+rule_625,2024-06-16T00:00:00,2024-06-18T00:00:00,2,Security,Database Performance Loss,2,2,2247000,logging,2,False,2024-06-28T00:00:00,3,True,enabled,3,0,2
+rule_626,2024-06-06T00:00:00,2024-06-07T00:00:00,4,Performance,Decreased Security,2,1,3244937,security,2,True,2024-06-24T00:00:00,6,True,enabled,2,5,4
+rule_627,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,3,3095963,tuning,2,True,2024-06-30T00:00:00,1,True,enabled,2,2,3
+rule_628,2024-06-02T00:00:00,2024-06-04T00:00:00,4,Performance,Best Practice,1,5,7586801,security,1,False,2024-06-08T00:00:00,2,True,enabled,4,2,0
+rule_629,2024-06-17T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,5,2339963,availability,2,False,2024-06-20T00:00:00,5,True,enabled,4,0,0
+rule_630,2024-06-15T00:00:00,2024-06-16T00:00:00,1,Availability,Database Performance Loss,2,5,4082872,stability,2,True,2024-06-22T00:00:00,6,True,enabled,3,5,4
+rule_631,2024-06-05T00:00:00,2024-06-19T00:00:00,2,Security,Decreased Security,2,1,5677983,hardening,0,False,2024-06-13T00:00:00,9,True,enabled,5,3,4
+rule_632,2024-06-23T00:00:00,2024-06-24T00:00:00,1,Availability,Best Practice,1,4,6827299,tuning,1,False,2024-06-29T00:00:00,5,True,enabled,4,5,1
+rule_633,2024-06-10T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,5,2706450,logging,1,True,2024-06-16T00:00:00,6,True,enabled,4,0,3
+rule_634,2024-06-09T00:00:00,2024-06-15T00:00:00,3,Stability,Best Practice,1,4,2864442,database,1,True,2024-06-09T00:00:00,6,True,enabled,1,3,5
+rule_635,2024-06-09T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,5,6884556,performance,2,True,2024-06-12T00:00:00,4,True,enabled,5,1,0
+rule_636,2024-06-03T00:00:00,2024-06-23T00:00:00,4,Performance,Decreased Security,2,2,1438455,hardening,3,True,2024-06-08T00:00:00,8,True,enabled,1,0,0
+rule_637,2024-06-01T00:00:00,2024-06-19T00:00:00,1,Availability,Database Performance Loss,2,5,5988855,tuning,1,False,2024-06-18T00:00:00,6,True,enabled,1,3,1
+rule_638,2024-06-10T00:00:00,2024-06-14T00:00:00,4,Performance,Decreased Security,2,1,8017198,availability,3,False,2024-06-26T00:00:00,8,True,enabled,3,5,5
+rule_639,2024-06-18T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,3,9429373,logging,2,False,2024-06-29T00:00:00,4,True,enabled,5,5,2
+rule_640,2024-06-23T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,2,3513902,stability,2,True,2024-06-30T00:00:00,1,True,enabled,3,5,2
+rule_641,2024-06-26T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,4,2331957,hardening,3,False,2024-06-28T00:00:00,10,True,enabled,2,3,5
+rule_642,2024-06-17T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,1,8932887,security,2,False,2024-06-17T00:00:00,2,True,enabled,3,5,3
+rule_643,2024-06-15T00:00:00,2024-06-18T00:00:00,2,Security,Database Performance Loss,2,2,1682939,database,1,False,2024-06-23T00:00:00,8,True,enabled,1,2,0
+rule_644,2024-06-24T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,5,4152438,performance,1,True,2024-06-27T00:00:00,1,True,enabled,5,5,1
+rule_645,2024-06-27T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,2,2990118,stability,1,True,2024-06-27T00:00:00,6,True,enabled,5,3,0
+rule_646,2024-06-24T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,2,4231789,logging,1,False,2024-06-25T00:00:00,1,True,enabled,4,0,1
+rule_647,2024-06-04T00:00:00,2024-06-27T00:00:00,4,Performance,Database Performance Loss,2,3,8592882,security,1,True,2024-06-13T00:00:00,5,True,enabled,4,2,5
+rule_648,2024-06-28T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,3,1291863,stability,1,True,2024-06-30T00:00:00,5,True,enabled,1,1,0
+rule_649,2024-06-05T00:00:00,2024-06-21T00:00:00,3,Stability,Best Practice,1,1,3008260,hardening,1,True,2024-06-08T00:00:00,9,True,enabled,2,0,5
+rule_650,2024-06-21T00:00:00,2024-06-22T00:00:00,4,Performance,Best Practice,1,4,6554270,logging,3,True,2024-06-25T00:00:00,4,True,enabled,2,0,2
+rule_651,2024-06-18T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,2,6144000,stability,1,False,2024-06-18T00:00:00,6,True,enabled,3,4,4
+rule_652,2024-06-13T00:00:00,2024-06-19T00:00:00,2,Security,Database Performance Loss,2,4,8311074,stability,3,False,2024-06-24T00:00:00,4,True,enabled,1,4,3
+rule_653,2024-06-27T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,2,1125904,availability,1,True,2024-06-29T00:00:00,1,True,enabled,2,2,0
+rule_654,2024-06-24T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,3,1444181,security,1,True,2024-06-25T00:00:00,9,True,enabled,4,3,4
+rule_655,2024-06-10T00:00:00,2024-06-22T00:00:00,4,Performance,Best Practice,1,3,4612761,stability,2,False,2024-06-19T00:00:00,6,True,enabled,1,2,0
+rule_656,2024-06-09T00:00:00,2024-06-16T00:00:00,1,Availability,Best Practice,1,2,4148020,logging,2,True,2024-06-18T00:00:00,1,True,enabled,5,3,5
+rule_657,2024-06-10T00:00:00,2024-06-17T00:00:00,3,Stability,Best Practice,1,1,2407002,availability,1,False,2024-06-29T00:00:00,10,True,enabled,4,1,3
+rule_658,2024-06-24T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,3,2081740,database,1,True,2024-06-28T00:00:00,4,True,enabled,2,5,1
+rule_659,2024-06-26T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,2,6560253,tuning,3,False,2024-06-27T00:00:00,9,True,enabled,3,1,1
+rule_660,2024-06-02T00:00:00,2024-06-26T00:00:00,3,Stability,Best Practice,1,5,9332119,hardening,0,True,2024-06-06T00:00:00,4,True,enabled,5,2,2
+rule_661,2024-06-20T00:00:00,2024-06-26T00:00:00,4,Performance,Database Performance Loss,2,4,8899683,security,3,True,2024-06-22T00:00:00,7,True,enabled,4,3,4
+rule_662,2024-06-20T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,5,2696853,logging,3,True,2024-06-20T00:00:00,7,True,enabled,3,3,1
+rule_663,2024-06-01T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,2,4500185,logging,3,True,2024-06-23T00:00:00,1,True,enabled,3,5,4
+rule_664,2024-06-17T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,1,3032034,security,2,True,2024-06-23T00:00:00,3,True,enabled,4,4,5
+rule_665,2024-06-14T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,1,3620292,hardening,1,True,2024-06-26T00:00:00,3,True,enabled,1,2,3
+rule_666,2024-06-02T00:00:00,2024-06-25T00:00:00,4,Performance,Database Performance Loss,2,1,8807513,database,3,True,2024-06-22T00:00:00,4,True,enabled,1,4,5
+rule_667,2024-06-06T00:00:00,2024-06-16T00:00:00,1,Availability,Decreased Security,2,3,3993902,logging,0,True,2024-06-24T00:00:00,9,True,enabled,4,5,5
+rule_668,2024-06-04T00:00:00,2024-06-21T00:00:00,1,Availability,Database Performance Loss,2,2,8296051,availability,1,True,2024-06-19T00:00:00,6,True,enabled,1,4,3
+rule_669,2024-06-12T00:00:00,2024-06-24T00:00:00,1,Availability,Decreased Security,2,3,1647952,logging,0,False,2024-06-21T00:00:00,4,True,enabled,1,4,3
+rule_670,2024-06-16T00:00:00,2024-06-26T00:00:00,1,Availability,Database Performance Loss,2,5,8759819,security,2,False,2024-06-23T00:00:00,9,True,enabled,4,0,5
+rule_671,2024-06-14T00:00:00,2024-06-28T00:00:00,2,Security,Database Performance Loss,2,1,6699204,logging,0,False,2024-06-25T00:00:00,3,True,enabled,2,0,0
+rule_672,2024-06-15T00:00:00,2024-06-25T00:00:00,4,Performance,Best Practice,1,3,5473143,tuning,3,True,2024-06-15T00:00:00,10,True,enabled,2,1,2
+rule_673,2024-06-20T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,5,6629259,database,0,False,2024-06-29T00:00:00,7,True,enabled,3,1,1
+rule_674,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,5,1964044,performance,2,False,2024-06-30T00:00:00,6,True,enabled,4,5,0
+rule_675,2024-06-15T00:00:00,2024-06-20T00:00:00,4,Performance,Decreased Security,2,4,9106598,logging,1,False,2024-06-21T00:00:00,8,True,enabled,2,1,5
+rule_676,2024-06-13T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,2,5326172,logging,3,False,2024-06-13T00:00:00,9,True,enabled,2,2,3
+rule_677,2024-06-21T00:00:00,2024-06-23T00:00:00,1,Availability,Database Performance Loss,2,1,6177076,stability,1,False,2024-06-28T00:00:00,8,True,enabled,2,3,1
+rule_678,2024-06-12T00:00:00,2024-06-13T00:00:00,3,Stability,Best Practice,1,5,8821353,security,1,False,2024-06-18T00:00:00,8,True,enabled,1,4,1
+rule_679,2024-06-13T00:00:00,2024-06-26T00:00:00,3,Stability,Best Practice,1,3,3766214,performance,0,True,2024-06-19T00:00:00,4,True,enabled,4,1,5
+rule_680,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,4,3197104,hardening,1,True,2024-06-30T00:00:00,3,True,enabled,3,0,3
+rule_681,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,5,4076278,database,3,True,2024-06-30T00:00:00,10,True,enabled,3,3,4
+rule_682,2024-06-02T00:00:00,2024-06-12T00:00:00,1,Availability,Best Practice,1,5,1243464,hardening,1,False,2024-06-14T00:00:00,4,True,enabled,2,2,0
+rule_683,2024-06-10T00:00:00,2024-06-17T00:00:00,3,Stability,Database Performance Loss,2,1,6644872,hardening,0,False,2024-06-19T00:00:00,4,True,enabled,2,1,3
+rule_684,2024-06-05T00:00:00,2024-06-16T00:00:00,4,Performance,Decreased Security,2,4,9899134,security,3,False,2024-06-16T00:00:00,6,True,enabled,3,0,5
+rule_685,2024-06-24T00:00:00,2024-06-27T00:00:00,3,Stability,Decreased Security,2,3,7394556,availability,0,False,2024-06-26T00:00:00,10,True,enabled,3,0,3
+rule_686,2024-06-10T00:00:00,2024-06-24T00:00:00,1,Availability,Decreased Security,2,1,7764441,availability,3,False,2024-06-16T00:00:00,4,True,enabled,2,0,0
+rule_687,2024-06-13T00:00:00,2024-06-17T00:00:00,2,Security,Best Practice,1,1,2008422,hardening,3,False,2024-06-22T00:00:00,5,True,enabled,1,3,3
+rule_688,2024-06-09T00:00:00,2024-06-14T00:00:00,4,Performance,Best Practice,1,2,8996363,availability,3,False,2024-06-09T00:00:00,4,True,enabled,5,2,4
+rule_689,2024-06-22T00:00:00,2024-06-22T00:00:00,1,Availability,Decreased Security,2,5,4385903,logging,2,False,2024-06-29T00:00:00,7,True,enabled,5,2,0
+rule_690,2024-06-20T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,2,2494139,database,1,False,2024-06-24T00:00:00,5,True,enabled,2,2,2
+rule_691,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,4,9921159,tuning,0,True,2024-06-30T00:00:00,4,True,enabled,5,3,5
+rule_692,2024-06-28T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,2,4228166,stability,3,False,2024-06-29T00:00:00,5,True,enabled,5,0,2
+rule_693,2024-06-29T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,2,2628876,database,0,True,2024-06-30T00:00:00,6,True,enabled,1,2,0
+rule_694,2024-06-21T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,5,4664180,logging,0,True,2024-06-26T00:00:00,7,True,enabled,5,4,5
+rule_695,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,2,8982349,tuning,1,True,2024-06-30T00:00:00,10,True,enabled,1,3,0
+rule_696,2024-06-06T00:00:00,2024-06-22T00:00:00,3,Stability,Database Performance Loss,2,3,9722996,availability,0,True,2024-06-18T00:00:00,7,True,enabled,5,2,5
+rule_697,2024-06-03T00:00:00,2024-06-15T00:00:00,1,Availability,Decreased Security,2,5,8091501,logging,3,True,2024-06-16T00:00:00,3,True,enabled,1,2,0
+rule_698,2024-06-24T00:00:00,2024-06-25T00:00:00,3,Stability,Database Performance Loss,2,4,4582559,performance,2,True,2024-06-30T00:00:00,4,True,enabled,3,5,4
+rule_699,2024-06-28T00:00:00,2024-06-28T00:00:00,2,Security,Best Practice,1,2,9399050,hardening,1,False,2024-06-30T00:00:00,5,True,enabled,4,5,0
+rule_700,2024-06-22T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,5,8963005,logging,2,True,2024-06-24T00:00:00,7,True,enabled,5,4,5
+rule_701,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,5,7499653,logging,3,False,2024-06-30T00:00:00,4,True,enabled,4,0,4
+rule_702,2024-06-26T00:00:00,2024-06-28T00:00:00,2,Security,Database Performance Loss,2,3,3894191,hardening,2,True,2024-06-30T00:00:00,5,True,enabled,5,1,5
+rule_703,2024-06-21T00:00:00,2024-06-28T00:00:00,2,Security,Best Practice,1,2,1637895,security,1,False,2024-06-25T00:00:00,7,True,enabled,4,3,1
+rule_704,2024-06-01T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,5,9148373,performance,0,False,2024-06-02T00:00:00,6,True,enabled,2,2,0
+rule_705,2024-06-26T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,1,5652303,security,3,False,2024-06-30T00:00:00,2,True,enabled,5,4,3
+rule_706,2024-06-08T00:00:00,2024-06-17T00:00:00,3,Stability,Database Performance Loss,2,5,9579210,logging,3,False,2024-06-28T00:00:00,8,True,enabled,5,1,1
+rule_707,2024-06-21T00:00:00,2024-06-22T00:00:00,2,Security,Decreased Security,2,4,3595527,security,1,False,2024-06-26T00:00:00,1,True,enabled,2,0,5
+rule_708,2024-06-11T00:00:00,2024-06-22T00:00:00,4,Performance,Database Performance Loss,2,1,3845811,security,2,True,2024-06-28T00:00:00,8,True,enabled,1,0,5
+rule_709,2024-06-17T00:00:00,2024-06-19T00:00:00,3,Stability,Database Performance Loss,2,2,6302404,database,0,False,2024-06-26T00:00:00,2,True,enabled,4,4,5
+rule_710,2024-06-05T00:00:00,2024-06-17T00:00:00,1,Availability,Best Practice,1,5,6325115,logging,0,True,2024-06-20T00:00:00,3,True,enabled,5,1,4
+rule_711,2024-06-24T00:00:00,2024-06-24T00:00:00,3,Stability,Best Practice,1,5,9461196,hardening,0,True,2024-06-25T00:00:00,1,True,enabled,4,2,2
+rule_712,2024-06-09T00:00:00,2024-06-17T00:00:00,4,Performance,Database Performance Loss,2,5,6029072,stability,3,False,2024-06-11T00:00:00,8,True,enabled,2,2,0
+rule_713,2024-06-01T00:00:00,2024-06-24T00:00:00,1,Availability,Database Performance Loss,2,3,3258824,hardening,2,False,2024-06-11T00:00:00,10,True,enabled,2,4,3
+rule_714,2024-06-09T00:00:00,2024-06-17T00:00:00,1,Availability,Best Practice,1,2,9482025,performance,1,True,2024-06-28T00:00:00,1,True,enabled,2,0,2
+rule_715,2024-06-12T00:00:00,2024-06-28T00:00:00,4,Performance,Database Performance Loss,2,3,2352460,security,1,False,2024-06-21T00:00:00,4,True,enabled,4,0,4
+rule_716,2024-06-26T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,5,4504595,logging,0,True,2024-06-26T00:00:00,3,True,enabled,5,3,2
+rule_717,2024-06-04T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,3,9737087,performance,3,False,2024-06-24T00:00:00,8,True,enabled,2,1,4
+rule_718,2024-06-09T00:00:00,2024-06-25T00:00:00,4,Performance,Best Practice,1,5,8356896,tuning,3,True,2024-06-30T00:00:00,2,True,enabled,4,3,4
+rule_719,2024-06-05T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,1,6209195,hardening,2,True,2024-06-29T00:00:00,10,True,enabled,4,2,3
+rule_720,2024-06-16T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,3,4410749,database,0,False,2024-06-29T00:00:00,4,True,enabled,4,4,1
+rule_721,2024-06-07T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,4,3706219,database,2,False,2024-06-17T00:00:00,2,True,enabled,5,0,0
+rule_722,2024-06-04T00:00:00,2024-06-05T00:00:00,4,Performance,Database Performance Loss,2,5,9183988,stability,1,True,2024-06-14T00:00:00,2,True,enabled,2,5,0
+rule_723,2024-06-02T00:00:00,2024-06-16T00:00:00,3,Stability,Decreased Security,2,1,2598229,tuning,1,True,2024-06-18T00:00:00,2,True,enabled,1,4,5
+rule_724,2024-06-21T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,4,3108056,availability,2,True,2024-06-22T00:00:00,4,True,enabled,4,2,1
+rule_725,2024-06-04T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,5,5501701,performance,2,False,2024-06-11T00:00:00,7,True,enabled,5,0,1
+rule_726,2024-06-09T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,2,2997902,tuning,3,True,2024-06-17T00:00:00,1,True,enabled,5,4,5
+rule_727,2024-06-15T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,2,1705857,availability,2,False,2024-06-27T00:00:00,8,True,enabled,3,3,0
+rule_728,2024-06-04T00:00:00,2024-06-11T00:00:00,3,Stability,Decreased Security,2,3,8878033,logging,2,True,2024-06-04T00:00:00,3,True,enabled,3,5,5
+rule_729,2024-06-05T00:00:00,2024-06-11T00:00:00,4,Performance,Database Performance Loss,2,1,1394053,database,3,False,2024-06-15T00:00:00,10,True,enabled,4,1,4
+rule_730,2024-06-29T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,1826571,availability,3,False,2024-06-30T00:00:00,4,True,enabled,1,5,2
+rule_731,2024-06-05T00:00:00,2024-06-17T00:00:00,4,Performance,Decreased Security,2,4,1495589,stability,0,False,2024-06-16T00:00:00,5,True,enabled,1,3,1
+rule_732,2024-06-23T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,3,3773807,hardening,3,True,2024-06-30T00:00:00,2,True,enabled,1,0,4
+rule_733,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,3,8396419,security,2,False,2024-06-30T00:00:00,8,True,enabled,1,4,5
+rule_734,2024-06-24T00:00:00,2024-06-24T00:00:00,3,Stability,Best Practice,1,2,7826569,security,0,True,2024-06-28T00:00:00,2,True,enabled,5,3,2
+rule_735,2024-06-21T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,4,6693959,database,3,False,2024-06-25T00:00:00,7,True,enabled,1,0,2
+rule_736,2024-06-01T00:00:00,2024-06-05T00:00:00,4,Performance,Decreased Security,2,4,7706603,security,3,False,2024-06-05T00:00:00,9,True,enabled,1,4,1
+rule_737,2024-06-25T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,1,1413938,tuning,3,False,2024-06-28T00:00:00,1,True,enabled,2,5,2
+rule_738,2024-06-04T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,3,9947673,hardening,0,False,2024-06-07T00:00:00,6,True,enabled,3,4,3
+rule_739,2024-06-04T00:00:00,2024-06-16T00:00:00,1,Availability,Best Practice,1,5,3040112,logging,1,False,2024-06-23T00:00:00,5,True,enabled,4,5,1
+rule_740,2024-06-07T00:00:00,2024-06-18T00:00:00,3,Stability,Database Performance Loss,2,2,9811490,database,2,True,2024-06-12T00:00:00,4,True,enabled,3,2,0
+rule_741,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,1,2389681,logging,1,False,2024-06-30T00:00:00,2,True,enabled,2,3,4
+rule_742,2024-06-10T00:00:00,2024-06-29T00:00:00,2,Security,Database Performance Loss,2,5,7277773,availability,1,False,2024-06-23T00:00:00,9,True,enabled,2,4,3
+rule_743,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,3,5096538,database,0,False,2024-06-30T00:00:00,10,True,enabled,5,1,4
+rule_744,2024-06-16T00:00:00,2024-06-24T00:00:00,4,Performance,Best Practice,1,2,3847700,hardening,1,True,2024-06-27T00:00:00,8,True,enabled,3,3,1
+rule_745,2024-06-20T00:00:00,2024-06-26T00:00:00,3,Stability,Decreased Security,2,2,5734930,logging,3,False,2024-06-21T00:00:00,4,True,enabled,1,1,2
+rule_746,2024-06-21T00:00:00,2024-06-25T00:00:00,4,Performance,Decreased Security,2,1,1749014,logging,2,True,2024-06-25T00:00:00,10,True,enabled,5,1,0
+rule_747,2024-06-28T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,4,9591691,performance,1,False,2024-06-29T00:00:00,3,True,enabled,5,5,1
+rule_748,2024-06-26T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,1,4311617,logging,0,True,2024-06-29T00:00:00,6,True,enabled,2,3,2
+rule_749,2024-06-23T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,4,7353937,database,0,False,2024-06-25T00:00:00,9,True,enabled,3,5,5
+rule_750,2024-06-11T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,5,1107152,availability,3,False,2024-06-14T00:00:00,5,True,enabled,4,4,4
+rule_751,2024-06-01T00:00:00,2024-06-17T00:00:00,4,Performance,Database Performance Loss,2,4,9833918,performance,2,False,2024-06-03T00:00:00,8,True,enabled,3,2,0
+rule_752,2024-06-24T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,3,7708847,security,1,False,2024-06-28T00:00:00,8,True,enabled,5,0,0
+rule_753,2024-06-09T00:00:00,2024-06-15T00:00:00,4,Performance,Best Practice,1,2,2566808,hardening,1,True,2024-06-29T00:00:00,7,True,enabled,3,3,2
+rule_754,2024-06-05T00:00:00,2024-06-18T00:00:00,3,Stability,Best Practice,1,4,3062857,hardening,1,False,2024-06-23T00:00:00,2,True,enabled,5,3,5
+rule_755,2024-06-24T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,2,8273398,stability,0,True,2024-06-29T00:00:00,3,True,enabled,5,1,0
+rule_756,2024-06-11T00:00:00,2024-06-13T00:00:00,4,Performance,Best Practice,1,1,9559180,security,3,True,2024-06-16T00:00:00,4,True,enabled,4,3,0
+rule_757,2024-06-12T00:00:00,2024-06-27T00:00:00,2,Security,Decreased Security,2,1,8476516,hardening,1,False,2024-06-16T00:00:00,3,True,enabled,1,4,0
+rule_758,2024-06-12T00:00:00,2024-06-21T00:00:00,4,Performance,Database Performance Loss,2,4,9609682,hardening,0,False,2024-06-29T00:00:00,10,True,enabled,3,0,3
+rule_759,2024-06-28T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,4,6819575,logging,1,True,2024-06-29T00:00:00,7,True,enabled,3,2,1
+rule_760,2024-06-01T00:00:00,2024-06-17T00:00:00,3,Stability,Decreased Security,2,1,5092436,stability,3,True,2024-06-28T00:00:00,10,True,enabled,1,5,2
+rule_761,2024-06-18T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,1,4056793,hardening,0,True,2024-06-27T00:00:00,5,True,enabled,5,5,1
+rule_762,2024-06-28T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,4,4969943,availability,2,True,2024-06-29T00:00:00,2,True,enabled,2,1,0
+rule_763,2024-06-15T00:00:00,2024-06-22T00:00:00,2,Security,Database Performance Loss,2,4,5533590,logging,2,True,2024-06-16T00:00:00,6,True,enabled,3,4,1
+rule_764,2024-06-01T00:00:00,2024-06-12T00:00:00,1,Availability,Database Performance Loss,2,4,2744240,hardening,2,True,2024-06-17T00:00:00,4,True,enabled,1,5,2
+rule_765,2024-06-08T00:00:00,2024-06-20T00:00:00,4,Performance,Best Practice,1,4,7007440,performance,0,True,2024-06-21T00:00:00,9,True,enabled,2,5,0
+rule_766,2024-06-27T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,1,6379728,logging,2,False,2024-06-29T00:00:00,3,True,enabled,2,5,0
+rule_767,2024-06-04T00:00:00,2024-06-22T00:00:00,3,Stability,Decreased Security,2,1,7007025,security,2,True,2024-06-29T00:00:00,1,True,enabled,5,2,1
+rule_768,2024-06-06T00:00:00,2024-06-15T00:00:00,3,Stability,Database Performance Loss,2,5,2526824,security,3,False,2024-06-20T00:00:00,9,True,enabled,5,0,0
+rule_769,2024-06-10T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,1,9487717,hardening,3,True,2024-06-11T00:00:00,5,True,enabled,1,3,3
+rule_770,2024-06-24T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,1,4734516,performance,1,True,2024-06-28T00:00:00,5,True,enabled,5,1,3
+rule_771,2024-06-09T00:00:00,2024-06-17T00:00:00,2,Security,Database Performance Loss,2,3,9463646,stability,2,False,2024-06-12T00:00:00,3,True,enabled,5,2,5
+rule_772,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,3,9765324,availability,3,False,2024-06-30T00:00:00,10,True,enabled,5,4,3
+rule_773,2024-06-24T00:00:00,2024-06-27T00:00:00,1,Availability,Decreased Security,2,4,8734852,hardening,1,True,2024-06-30T00:00:00,8,True,enabled,3,5,5
+rule_774,2024-06-24T00:00:00,2024-06-27T00:00:00,3,Stability,Decreased Security,2,4,6558386,security,1,True,2024-06-29T00:00:00,4,True,enabled,4,3,4
+rule_775,2024-06-13T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,3,4185944,security,0,True,2024-06-28T00:00:00,10,True,enabled,2,5,4
+rule_776,2024-06-28T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,5,5794852,logging,0,False,2024-06-29T00:00:00,3,True,enabled,1,1,1
+rule_777,2024-06-22T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,5,5926297,logging,0,True,2024-06-29T00:00:00,1,True,enabled,5,5,2
+rule_778,2024-06-14T00:00:00,2024-06-20T00:00:00,4,Performance,Database Performance Loss,2,1,9047582,security,0,False,2024-06-20T00:00:00,6,True,enabled,3,4,1
+rule_779,2024-06-16T00:00:00,2024-06-21T00:00:00,1,Availability,Decreased Security,2,5,2063393,hardening,0,True,2024-06-17T00:00:00,5,True,enabled,4,4,5
+rule_780,2024-06-20T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,1,1516525,availability,3,True,2024-06-22T00:00:00,5,True,enabled,1,4,1
+rule_781,2024-06-23T00:00:00,2024-06-25T00:00:00,3,Stability,Best Practice,1,4,2286540,stability,0,True,2024-06-28T00:00:00,10,True,enabled,4,4,4
+rule_782,2024-06-17T00:00:00,2024-06-18T00:00:00,2,Security,Decreased Security,2,4,8633108,security,3,False,2024-06-17T00:00:00,3,True,enabled,1,2,1
+rule_783,2024-06-22T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,1,3871428,hardening,1,True,2024-06-24T00:00:00,10,True,enabled,4,4,5
+rule_784,2024-06-07T00:00:00,2024-06-20T00:00:00,3,Stability,Database Performance Loss,2,2,2400053,database,0,False,2024-06-20T00:00:00,5,True,enabled,3,0,2
+rule_785,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,4,7503521,availability,2,False,2024-06-30T00:00:00,1,True,enabled,1,3,1
+rule_786,2024-06-08T00:00:00,2024-06-20T00:00:00,2,Security,Decreased Security,2,5,5867835,performance,2,True,2024-06-18T00:00:00,7,True,enabled,2,5,4
+rule_787,2024-06-27T00:00:00,2024-06-27T00:00:00,1,Availability,Best Practice,1,3,3188311,performance,3,True,2024-06-29T00:00:00,5,True,enabled,5,2,5
+rule_788,2024-06-17T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,2,9831792,database,0,True,2024-06-26T00:00:00,10,True,enabled,1,0,2
+rule_789,2024-06-13T00:00:00,2024-06-21T00:00:00,3,Stability,Best Practice,1,4,7769689,database,2,False,2024-06-27T00:00:00,9,True,enabled,4,5,1
+rule_790,2024-06-06T00:00:00,2024-06-12T00:00:00,4,Performance,Database Performance Loss,2,1,2670235,performance,0,True,2024-06-08T00:00:00,3,True,enabled,2,4,0
+rule_791,2024-06-08T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,4,2894182,tuning,3,True,2024-06-15T00:00:00,1,True,enabled,5,1,4
+rule_792,2024-06-01T00:00:00,2024-06-09T00:00:00,4,Performance,Best Practice,1,4,2561097,security,1,False,2024-06-05T00:00:00,6,True,enabled,5,3,5
+rule_793,2024-06-02T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,4,2657903,database,0,False,2024-06-13T00:00:00,7,True,enabled,4,2,4
+rule_794,2024-06-23T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,2,6308149,tuning,3,False,2024-06-23T00:00:00,3,True,enabled,4,4,5
+rule_795,2024-06-10T00:00:00,2024-06-18T00:00:00,3,Stability,Best Practice,1,2,4252824,tuning,0,False,2024-06-10T00:00:00,1,True,enabled,4,1,4
+rule_796,2024-06-21T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,4,7292191,availability,0,False,2024-06-23T00:00:00,6,True,enabled,3,2,3
+rule_797,2024-06-09T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,3,2374680,logging,0,False,2024-06-19T00:00:00,6,True,enabled,1,0,1
+rule_798,2024-06-17T00:00:00,2024-06-27T00:00:00,4,Performance,Best Practice,1,4,1971467,performance,1,True,2024-06-20T00:00:00,6,True,enabled,4,2,1
+rule_799,2024-06-05T00:00:00,2024-06-20T00:00:00,2,Security,Best Practice,1,2,1660175,performance,0,True,2024-06-06T00:00:00,4,True,enabled,4,3,3
+rule_800,2024-06-12T00:00:00,2024-06-13T00:00:00,3,Stability,Best Practice,1,4,3338449,stability,2,True,2024-06-19T00:00:00,10,True,enabled,2,4,5
+rule_801,2024-06-07T00:00:00,2024-06-10T00:00:00,3,Stability,Database Performance Loss,2,3,9103314,hardening,2,True,2024-06-27T00:00:00,2,True,enabled,3,2,2
+rule_802,2024-06-01T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,5,1044371,database,2,False,2024-06-20T00:00:00,3,True,enabled,5,1,4
+rule_803,2024-06-19T00:00:00,2024-06-25T00:00:00,2,Security,Database Performance Loss,2,2,3620094,logging,1,True,2024-06-30T00:00:00,7,True,enabled,1,2,4
+rule_804,2024-06-05T00:00:00,2024-06-25T00:00:00,4,Performance,Best Practice,1,2,9074329,logging,2,False,2024-06-14T00:00:00,7,True,enabled,1,2,0
+rule_805,2024-06-10T00:00:00,2024-06-15T00:00:00,3,Stability,Best Practice,1,4,2852983,availability,2,False,2024-06-26T00:00:00,7,True,enabled,4,4,4
+rule_806,2024-06-03T00:00:00,2024-06-03T00:00:00,2,Security,Decreased Security,2,5,1592135,performance,2,True,2024-06-29T00:00:00,1,True,enabled,1,1,3
+rule_807,2024-06-25T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,3,4264250,security,3,True,2024-06-30T00:00:00,1,True,enabled,3,3,2
+rule_808,2024-06-15T00:00:00,2024-06-26T00:00:00,3,Stability,Best Practice,1,5,3400760,performance,0,False,2024-06-16T00:00:00,10,True,enabled,1,2,5
+rule_809,2024-06-24T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,2,4408750,security,1,True,2024-06-30T00:00:00,5,True,enabled,2,5,0
+rule_810,2024-06-04T00:00:00,2024-06-13T00:00:00,1,Availability,Best Practice,1,1,2630748,availability,1,False,2024-06-14T00:00:00,6,True,enabled,5,4,4
+rule_811,2024-06-28T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,3,3464465,security,1,False,2024-06-28T00:00:00,8,True,enabled,3,0,1
+rule_812,2024-06-02T00:00:00,2024-06-25T00:00:00,3,Stability,Database Performance Loss,2,5,6148209,security,3,True,2024-06-24T00:00:00,2,True,enabled,3,5,4
+rule_813,2024-06-10T00:00:00,2024-06-23T00:00:00,1,Availability,Decreased Security,2,5,1886246,hardening,2,False,2024-06-29T00:00:00,4,True,enabled,5,4,2
+rule_814,2024-06-11T00:00:00,2024-06-16T00:00:00,1,Availability,Database Performance Loss,2,4,4399755,logging,2,False,2024-06-25T00:00:00,6,True,enabled,2,2,5
+rule_815,2024-06-25T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,3,1956597,logging,0,True,2024-06-25T00:00:00,2,True,enabled,2,5,4
+rule_816,2024-06-21T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,1,1644650,performance,0,True,2024-06-26T00:00:00,1,True,enabled,3,5,2
+rule_817,2024-06-01T00:00:00,2024-06-01T00:00:00,2,Security,Best Practice,1,3,9341140,security,1,True,2024-06-23T00:00:00,6,True,enabled,5,1,5
+rule_818,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,4,2094302,security,2,False,2024-06-29T00:00:00,8,True,enabled,3,0,5
+rule_819,2024-06-14T00:00:00,2024-06-25T00:00:00,1,Availability,Best Practice,1,2,8569541,hardening,1,False,2024-06-16T00:00:00,10,True,enabled,1,1,1
+rule_820,2024-06-18T00:00:00,2024-06-24T00:00:00,2,Security,Decreased Security,2,1,5262523,stability,3,False,2024-06-19T00:00:00,10,True,enabled,5,1,2
+rule_821,2024-06-28T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,1,5834777,availability,0,True,2024-06-30T00:00:00,5,True,enabled,1,5,4
+rule_822,2024-06-20T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,2,9583562,stability,2,True,2024-06-20T00:00:00,3,True,enabled,2,3,2
+rule_823,2024-06-06T00:00:00,2024-06-20T00:00:00,4,Performance,Decreased Security,2,2,9530088,stability,3,False,2024-06-24T00:00:00,7,True,enabled,3,2,2
+rule_824,2024-06-15T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,2,7946673,tuning,0,True,2024-06-26T00:00:00,6,True,enabled,1,0,0
+rule_825,2024-06-19T00:00:00,2024-06-22T00:00:00,2,Security,Database Performance Loss,2,3,1428357,performance,3,False,2024-06-29T00:00:00,3,True,enabled,2,4,0
+rule_826,2024-06-14T00:00:00,2024-06-29T00:00:00,1,Availability,Database Performance Loss,2,3,6265928,performance,0,True,2024-06-20T00:00:00,3,True,enabled,1,3,5
+rule_827,2024-06-06T00:00:00,2024-06-17T00:00:00,2,Security,Best Practice,1,3,6995898,stability,1,False,2024-06-25T00:00:00,8,True,enabled,3,2,1
+rule_828,2024-06-15T00:00:00,2024-06-20T00:00:00,2,Security,Best Practice,1,5,3948889,database,2,False,2024-06-19T00:00:00,1,True,enabled,4,4,4
+rule_829,2024-06-15T00:00:00,2024-06-26T00:00:00,4,Performance,Best Practice,1,2,7528596,hardening,3,True,2024-06-23T00:00:00,7,True,enabled,3,5,1
+rule_830,2024-06-02T00:00:00,2024-06-29T00:00:00,2,Security,Decreased Security,2,1,4170422,availability,0,False,2024-06-23T00:00:00,9,True,enabled,2,4,3
+rule_831,2024-06-03T00:00:00,2024-06-19T00:00:00,4,Performance,Database Performance Loss,2,3,3738533,availability,2,False,2024-06-14T00:00:00,5,True,enabled,4,1,3
+rule_832,2024-06-05T00:00:00,2024-06-18T00:00:00,3,Stability,Decreased Security,2,1,4263036,tuning,1,False,2024-06-12T00:00:00,1,True,enabled,2,0,0
+rule_833,2024-06-16T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,5,4012173,logging,3,False,2024-06-25T00:00:00,6,True,enabled,5,2,1
+rule_834,2024-06-20T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,2,8611019,database,0,True,2024-06-23T00:00:00,1,True,enabled,5,1,1
+rule_835,2024-06-28T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,3,7213187,availability,2,True,2024-06-30T00:00:00,8,True,enabled,3,5,1
+rule_836,2024-06-17T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,2,1218678,tuning,3,True,2024-06-17T00:00:00,6,True,enabled,4,4,5
+rule_837,2024-06-06T00:00:00,2024-06-16T00:00:00,3,Stability,Decreased Security,2,1,2080356,database,1,False,2024-06-21T00:00:00,7,True,enabled,2,0,3
+rule_838,2024-06-12T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,5,2605353,tuning,3,False,2024-06-29T00:00:00,4,True,enabled,3,5,1
+rule_839,2024-06-19T00:00:00,2024-06-23T00:00:00,1,Availability,Decreased Security,2,2,5298310,database,3,True,2024-06-30T00:00:00,7,True,enabled,4,2,4
+rule_840,2024-06-27T00:00:00,2024-06-30T00:00:00,2,Security,Database Performance Loss,2,2,6474175,hardening,1,False,2024-06-29T00:00:00,9,True,enabled,2,3,1
+rule_841,2024-06-09T00:00:00,2024-06-20T00:00:00,2,Security,Decreased Security,2,3,1212617,stability,0,False,2024-06-22T00:00:00,7,True,enabled,3,0,0
+rule_842,2024-06-28T00:00:00,2024-06-28T00:00:00,2,Security,Decreased Security,2,2,9260898,security,3,False,2024-06-29T00:00:00,8,True,enabled,5,1,0
+rule_843,2024-06-18T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,1,9898802,tuning,3,True,2024-06-20T00:00:00,8,True,enabled,2,0,0
+rule_844,2024-06-26T00:00:00,2024-06-30T00:00:00,4,Performance,Decreased Security,2,4,6841155,logging,1,False,2024-06-28T00:00:00,2,True,enabled,1,2,4
+rule_845,2024-06-01T00:00:00,2024-06-27T00:00:00,3,Stability,Best Practice,1,1,9900436,availability,3,True,2024-06-23T00:00:00,8,True,enabled,5,2,2
+rule_846,2024-06-28T00:00:00,2024-06-29T00:00:00,3,Stability,Database Performance Loss,2,4,8124697,security,2,False,2024-06-29T00:00:00,4,True,enabled,2,1,5
+rule_847,2024-06-12T00:00:00,2024-06-15T00:00:00,1,Availability,Best Practice,1,3,9292385,database,2,True,2024-06-26T00:00:00,6,True,enabled,5,1,5
+rule_848,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,5,1608903,hardening,0,False,2024-06-30T00:00:00,3,True,enabled,2,1,0
+rule_849,2024-06-15T00:00:00,2024-06-20T00:00:00,2,Security,Database Performance Loss,2,1,8418329,tuning,1,False,2024-06-29T00:00:00,8,True,enabled,3,5,3
+rule_850,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,1,6287341,hardening,0,False,2024-06-30T00:00:00,4,True,enabled,4,2,1
+rule_851,2024-06-05T00:00:00,2024-06-08T00:00:00,3,Stability,Database Performance Loss,2,2,2696789,security,0,False,2024-06-21T00:00:00,8,True,enabled,5,1,1
+rule_852,2024-06-11T00:00:00,2024-06-12T00:00:00,3,Stability,Best Practice,1,2,6605334,database,3,False,2024-06-24T00:00:00,8,True,enabled,4,2,5
+rule_853,2024-06-30T00:00:00,2024-06-30T00:00:00,3,Stability,Best Practice,1,1,8189459,security,0,True,2024-06-30T00:00:00,1,True,enabled,5,4,0
+rule_854,2024-06-17T00:00:00,2024-06-27T00:00:00,3,Stability,Database Performance Loss,2,4,1382051,database,0,False,2024-06-29T00:00:00,9,True,enabled,3,0,1
+rule_855,2024-06-09T00:00:00,2024-06-15T00:00:00,2,Security,Database Performance Loss,2,3,8899935,availability,2,True,2024-06-27T00:00:00,4,True,enabled,5,1,1
+rule_856,2024-06-03T00:00:00,2024-06-21T00:00:00,3,Stability,Database Performance Loss,2,4,6282693,tuning,2,True,2024-06-05T00:00:00,10,True,enabled,4,1,5
+rule_857,2024-06-06T00:00:00,2024-06-24T00:00:00,2,Security,Decreased Security,2,2,8600358,security,0,False,2024-06-13T00:00:00,3,True,enabled,5,0,1
+rule_858,2024-06-15T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,2,5485642,availability,3,False,2024-06-28T00:00:00,1,True,enabled,1,5,0
+rule_859,2024-06-03T00:00:00,2024-06-23T00:00:00,2,Security,Decreased Security,2,3,6860361,performance,2,True,2024-06-15T00:00:00,2,True,enabled,3,5,0
+rule_860,2024-06-17T00:00:00,2024-06-17T00:00:00,3,Stability,Decreased Security,2,3,8337472,logging,2,True,2024-06-28T00:00:00,2,True,enabled,3,2,3
+rule_861,2024-06-19T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,1,2679474,tuning,3,True,2024-06-19T00:00:00,9,True,enabled,1,2,4
+rule_862,2024-06-23T00:00:00,2024-06-27T00:00:00,2,Security,Database Performance Loss,2,1,3727246,logging,0,False,2024-06-30T00:00:00,6,True,enabled,5,0,1
+rule_863,2024-06-19T00:00:00,2024-06-19T00:00:00,4,Performance,Decreased Security,2,4,7282017,stability,0,False,2024-06-20T00:00:00,10,True,enabled,4,4,5
+rule_864,2024-06-17T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,1,8577713,availability,1,True,2024-06-22T00:00:00,4,True,enabled,5,2,5
+rule_865,2024-06-26T00:00:00,2024-06-27T00:00:00,4,Performance,Best Practice,1,3,1804846,database,0,False,2024-06-29T00:00:00,7,True,enabled,4,3,5
+rule_866,2024-06-07T00:00:00,2024-06-28T00:00:00,3,Stability,Database Performance Loss,2,1,5720255,stability,0,False,2024-06-23T00:00:00,10,True,enabled,2,5,2
+rule_867,2024-06-02T00:00:00,2024-06-08T00:00:00,3,Stability,Database Performance Loss,2,2,4428084,security,1,False,2024-06-17T00:00:00,7,True,enabled,4,1,3
+rule_868,2024-06-26T00:00:00,2024-06-28T00:00:00,2,Security,Decreased Security,2,4,4808507,logging,1,True,2024-06-29T00:00:00,10,True,enabled,1,4,3
+rule_869,2024-06-01T00:00:00,2024-06-11T00:00:00,3,Stability,Database Performance Loss,2,1,5966953,logging,0,True,2024-06-30T00:00:00,1,True,enabled,2,5,5
+rule_870,2024-06-17T00:00:00,2024-06-17T00:00:00,4,Performance,Decreased Security,2,1,5163463,tuning,0,True,2024-06-25T00:00:00,5,True,enabled,3,0,3
+rule_871,2024-06-17T00:00:00,2024-06-17T00:00:00,4,Performance,Best Practice,1,1,5222529,security,1,False,2024-06-17T00:00:00,4,True,enabled,1,5,4
+rule_872,2024-06-10T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,1,9277792,database,3,False,2024-06-10T00:00:00,1,True,enabled,5,0,0
+rule_873,2024-06-17T00:00:00,2024-06-18T00:00:00,1,Availability,Best Practice,1,3,9921836,logging,2,False,2024-06-22T00:00:00,5,True,enabled,5,4,0
+rule_874,2024-06-09T00:00:00,2024-06-09T00:00:00,4,Performance,Database Performance Loss,2,4,5292038,logging,0,True,2024-06-26T00:00:00,5,True,enabled,4,3,2
+rule_875,2024-06-24T00:00:00,2024-06-26T00:00:00,4,Performance,Decreased Security,2,3,2915318,hardening,3,False,2024-06-26T00:00:00,6,True,enabled,5,3,5
+rule_876,2024-06-21T00:00:00,2024-06-21T00:00:00,2,Security,Decreased Security,2,5,9687872,tuning,1,True,2024-06-28T00:00:00,9,True,enabled,1,1,2
+rule_877,2024-06-12T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,5,3663653,availability,1,False,2024-06-19T00:00:00,3,True,enabled,2,5,4
+rule_878,2024-06-13T00:00:00,2024-06-23T00:00:00,3,Stability,Decreased Security,2,3,7032400,performance,3,False,2024-06-26T00:00:00,10,True,enabled,3,1,0
+rule_879,2024-06-11T00:00:00,2024-06-12T00:00:00,4,Performance,Decreased Security,2,4,2927793,database,0,False,2024-06-11T00:00:00,4,True,enabled,5,5,3
+rule_880,2024-06-15T00:00:00,2024-06-18T00:00:00,1,Availability,Decreased Security,2,1,3383375,logging,0,True,2024-06-16T00:00:00,10,True,enabled,3,4,2
+rule_881,2024-06-06T00:00:00,2024-06-09T00:00:00,3,Stability,Decreased Security,2,5,8723683,performance,1,False,2024-06-06T00:00:00,2,True,enabled,5,2,3
+rule_882,2024-06-29T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,1,7588971,hardening,3,False,2024-06-29T00:00:00,5,True,enabled,2,5,3
+rule_883,2024-06-08T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,1,4370391,performance,0,False,2024-06-11T00:00:00,9,True,enabled,4,5,1
+rule_884,2024-06-07T00:00:00,2024-06-08T00:00:00,2,Security,Best Practice,1,4,8946302,performance,2,False,2024-06-19T00:00:00,3,True,enabled,2,1,5
+rule_885,2024-06-08T00:00:00,2024-06-18T00:00:00,2,Security,Database Performance Loss,2,2,9567121,hardening,3,False,2024-06-30T00:00:00,6,True,enabled,1,3,3
+rule_886,2024-06-09T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,5,5337927,performance,3,False,2024-06-25T00:00:00,3,True,enabled,4,3,4
+rule_887,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,1,9722625,security,3,False,2024-06-30T00:00:00,9,True,enabled,2,5,3
+rule_888,2024-06-15T00:00:00,2024-06-25T00:00:00,4,Performance,Database Performance Loss,2,1,7831906,tuning,3,False,2024-06-17T00:00:00,1,True,enabled,3,4,2
+rule_889,2024-06-28T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,3,6298970,tuning,3,True,2024-06-30T00:00:00,5,True,enabled,1,4,5
+rule_890,2024-06-11T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,1,1915825,security,0,True,2024-06-17T00:00:00,6,True,enabled,2,5,5
+rule_891,2024-06-29T00:00:00,2024-06-30T00:00:00,2,Security,Best Practice,1,1,6090012,availability,1,False,2024-06-29T00:00:00,4,True,enabled,4,4,3
+rule_892,2024-06-18T00:00:00,2024-06-18T00:00:00,1,Availability,Decreased Security,2,5,3655739,availability,0,False,2024-06-18T00:00:00,3,True,enabled,4,4,1
+rule_893,2024-06-02T00:00:00,2024-06-16T00:00:00,1,Availability,Best Practice,1,3,2224235,tuning,2,False,2024-06-23T00:00:00,2,True,enabled,2,4,0
+rule_894,2024-06-19T00:00:00,2024-06-26T00:00:00,4,Performance,Decreased Security,2,4,3169571,logging,1,False,2024-06-25T00:00:00,10,True,enabled,2,5,3
+rule_895,2024-06-06T00:00:00,2024-06-18T00:00:00,4,Performance,Decreased Security,2,1,8403925,performance,0,False,2024-06-30T00:00:00,1,True,enabled,4,5,0
+rule_896,2024-06-14T00:00:00,2024-06-17T00:00:00,4,Performance,Database Performance Loss,2,2,4796847,database,3,True,2024-06-23T00:00:00,4,True,enabled,2,1,3
+rule_897,2024-06-07T00:00:00,2024-06-15T00:00:00,1,Availability,Best Practice,1,1,9260553,security,3,True,2024-06-16T00:00:00,8,True,enabled,3,0,0
+rule_898,2024-06-17T00:00:00,2024-06-21T00:00:00,4,Performance,Decreased Security,2,1,2797326,security,3,True,2024-06-26T00:00:00,7,True,enabled,4,3,3
+rule_899,2024-06-21T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,5,9327854,hardening,1,True,2024-06-30T00:00:00,6,True,enabled,1,1,4
+rule_900,2024-06-08T00:00:00,2024-06-23T00:00:00,1,Availability,Decreased Security,2,5,7128141,database,1,True,2024-06-23T00:00:00,2,True,enabled,1,4,4
+rule_901,2024-06-01T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,2,5823006,tuning,1,False,2024-06-18T00:00:00,8,True,enabled,4,4,4
+rule_902,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,1,9538054,stability,0,False,2024-06-30T00:00:00,10,True,enabled,2,1,1
+rule_903,2024-06-21T00:00:00,2024-06-29T00:00:00,3,Stability,Best Practice,1,3,7512845,tuning,2,True,2024-06-26T00:00:00,8,True,enabled,5,4,1
+rule_904,2024-06-03T00:00:00,2024-06-26T00:00:00,3,Stability,Best Practice,1,2,7222607,performance,0,True,2024-06-05T00:00:00,5,True,enabled,1,5,2
+rule_905,2024-06-12T00:00:00,2024-06-13T00:00:00,3,Stability,Database Performance Loss,2,1,1025294,database,3,True,2024-06-14T00:00:00,2,True,enabled,1,5,2
+rule_906,2024-06-07T00:00:00,2024-06-15T00:00:00,4,Performance,Decreased Security,2,4,1504449,database,2,False,2024-06-19T00:00:00,2,True,enabled,3,3,3
+rule_907,2024-06-07T00:00:00,2024-06-20T00:00:00,1,Availability,Best Practice,1,1,4340729,database,2,True,2024-06-22T00:00:00,4,True,enabled,3,4,3
+rule_908,2024-06-14T00:00:00,2024-06-26T00:00:00,1,Availability,Decreased Security,2,5,7690391,performance,2,True,2024-06-26T00:00:00,2,True,enabled,4,2,0
+rule_909,2024-06-26T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,1,4529246,hardening,0,True,2024-06-30T00:00:00,9,True,enabled,3,1,0
+rule_910,2024-06-05T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,1,3784440,logging,1,True,2024-06-06T00:00:00,4,True,enabled,5,1,0
+rule_911,2024-06-30T00:00:00,2024-06-30T00:00:00,4,Performance,Database Performance Loss,2,2,4517075,performance,3,False,2024-06-30T00:00:00,6,True,enabled,5,3,0
+rule_912,2024-06-15T00:00:00,2024-06-28T00:00:00,4,Performance,Best Practice,1,3,8604645,hardening,1,False,2024-06-29T00:00:00,7,True,enabled,3,4,1
+rule_913,2024-06-11T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,1,2759183,hardening,1,False,2024-06-15T00:00:00,5,True,enabled,1,3,0
+rule_914,2024-06-16T00:00:00,2024-06-17T00:00:00,3,Stability,Database Performance Loss,2,3,3524666,tuning,1,True,2024-06-30T00:00:00,5,True,enabled,4,3,4
+rule_915,2024-06-29T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,2,9913876,logging,1,False,2024-06-29T00:00:00,8,True,enabled,3,5,5
+rule_916,2024-06-13T00:00:00,2024-06-17T00:00:00,1,Availability,Decreased Security,2,1,8371595,logging,0,True,2024-06-29T00:00:00,10,True,enabled,5,5,1
+rule_917,2024-06-18T00:00:00,2024-06-24T00:00:00,4,Performance,Database Performance Loss,2,3,5544328,logging,1,False,2024-06-20T00:00:00,3,True,enabled,5,2,0
+rule_918,2024-06-16T00:00:00,2024-06-22T00:00:00,4,Performance,Decreased Security,2,2,9847066,tuning,2,False,2024-06-16T00:00:00,8,True,enabled,4,2,4
+rule_919,2024-06-24T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,1,1040842,hardening,1,False,2024-06-28T00:00:00,2,True,enabled,1,3,3
+rule_920,2024-06-05T00:00:00,2024-06-12T00:00:00,3,Stability,Best Practice,1,4,7245280,database,0,True,2024-06-16T00:00:00,6,True,enabled,5,4,4
+rule_921,2024-06-22T00:00:00,2024-06-24T00:00:00,3,Stability,Decreased Security,2,4,2781124,stability,0,True,2024-06-23T00:00:00,1,True,enabled,3,3,5
+rule_922,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,2,4838160,tuning,2,False,2024-06-30T00:00:00,9,True,enabled,2,3,0
+rule_923,2024-06-18T00:00:00,2024-06-20T00:00:00,1,Availability,Decreased Security,2,2,8303281,logging,1,True,2024-06-22T00:00:00,9,True,enabled,3,3,5
+rule_924,2024-06-01T00:00:00,2024-06-18T00:00:00,2,Security,Database Performance Loss,2,1,4577204,security,1,False,2024-06-18T00:00:00,2,True,enabled,5,4,3
+rule_925,2024-06-27T00:00:00,2024-06-29T00:00:00,3,Stability,Decreased Security,2,5,4930346,security,0,False,2024-06-28T00:00:00,7,True,enabled,2,5,5
+rule_926,2024-06-20T00:00:00,2024-06-30T00:00:00,1,Availability,Decreased Security,2,5,9830634,database,2,True,2024-06-24T00:00:00,6,True,enabled,3,1,0
+rule_927,2024-06-27T00:00:00,2024-06-27T00:00:00,1,Availability,Database Performance Loss,2,5,5484987,availability,3,True,2024-06-30T00:00:00,8,True,enabled,4,4,1
+rule_928,2024-06-14T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,1,5947376,logging,1,True,2024-06-18T00:00:00,9,True,enabled,1,3,4
+rule_929,2024-06-25T00:00:00,2024-06-30T00:00:00,3,Stability,Decreased Security,2,5,1742923,availability,3,False,2024-06-29T00:00:00,7,True,enabled,4,2,3
+rule_930,2024-06-19T00:00:00,2024-06-23T00:00:00,3,Stability,Database Performance Loss,2,2,4600995,stability,3,True,2024-06-24T00:00:00,10,True,enabled,3,2,1
+rule_931,2024-06-25T00:00:00,2024-06-28T00:00:00,1,Availability,Best Practice,1,1,1975528,hardening,2,False,2024-06-30T00:00:00,10,True,enabled,3,4,1
+rule_932,2024-06-05T00:00:00,2024-06-23T00:00:00,4,Performance,Database Performance Loss,2,5,3289550,hardening,1,True,2024-06-10T00:00:00,2,True,enabled,5,4,1
+rule_933,2024-06-25T00:00:00,2024-06-25T00:00:00,3,Stability,Database Performance Loss,2,4,8351957,performance,2,True,2024-06-30T00:00:00,5,True,enabled,5,3,2
+rule_934,2024-06-14T00:00:00,2024-06-21T00:00:00,2,Security,Best Practice,1,1,4118894,database,0,True,2024-06-25T00:00:00,3,True,enabled,1,3,1
+rule_935,2024-06-01T00:00:00,2024-06-03T00:00:00,3,Stability,Decreased Security,2,1,7357902,stability,3,True,2024-06-01T00:00:00,3,True,enabled,3,2,2
+rule_936,2024-06-21T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,5,5749282,availability,0,False,2024-06-24T00:00:00,7,True,enabled,4,1,0
+rule_937,2024-06-08T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,4,5007463,hardening,0,True,2024-06-17T00:00:00,9,True,enabled,3,1,2
+rule_938,2024-06-04T00:00:00,2024-06-15T00:00:00,3,Stability,Decreased Security,2,4,8065615,logging,3,True,2024-06-23T00:00:00,10,True,enabled,3,0,2
+rule_939,2024-06-04T00:00:00,2024-06-07T00:00:00,1,Availability,Best Practice,1,4,2188410,availability,3,False,2024-06-12T00:00:00,10,True,enabled,4,0,0
+rule_940,2024-06-15T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,5,8119486,performance,2,True,2024-06-20T00:00:00,8,True,enabled,5,5,5
+rule_941,2024-06-03T00:00:00,2024-06-18T00:00:00,2,Security,Decreased Security,2,1,5959896,stability,2,True,2024-06-25T00:00:00,1,True,enabled,1,3,2
+rule_942,2024-06-04T00:00:00,2024-06-15T00:00:00,3,Stability,Database Performance Loss,2,4,4114179,tuning,3,True,2024-06-12T00:00:00,5,True,enabled,4,4,2
+rule_943,2024-06-19T00:00:00,2024-06-21T00:00:00,4,Performance,Database Performance Loss,2,2,7127002,security,0,True,2024-06-29T00:00:00,2,True,enabled,3,5,1
+rule_944,2024-06-04T00:00:00,2024-06-14T00:00:00,4,Performance,Decreased Security,2,2,8325488,availability,1,True,2024-06-25T00:00:00,2,True,enabled,2,2,2
+rule_945,2024-06-24T00:00:00,2024-06-24T00:00:00,3,Stability,Database Performance Loss,2,5,8473070,database,0,False,2024-06-24T00:00:00,1,True,enabled,1,1,4
+rule_946,2024-06-16T00:00:00,2024-06-24T00:00:00,2,Security,Database Performance Loss,2,5,2452514,database,0,False,2024-06-26T00:00:00,10,True,enabled,5,5,4
+rule_947,2024-06-11T00:00:00,2024-06-21T00:00:00,3,Stability,Best Practice,1,4,7605532,logging,0,False,2024-06-13T00:00:00,9,True,enabled,3,4,4
+rule_948,2024-06-12T00:00:00,2024-06-16T00:00:00,1,Availability,Decreased Security,2,1,9424190,tuning,0,True,2024-06-21T00:00:00,4,True,enabled,4,3,4
+rule_949,2024-06-18T00:00:00,2024-06-28T00:00:00,3,Stability,Best Practice,1,4,2065151,availability,0,False,2024-06-20T00:00:00,5,True,enabled,3,2,2
+rule_950,2024-06-12T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,4,2978003,logging,2,True,2024-06-13T00:00:00,9,True,enabled,1,1,2
+rule_951,2024-06-19T00:00:00,2024-06-28T00:00:00,1,Availability,Decreased Security,2,3,3474036,tuning,3,True,2024-06-22T00:00:00,1,True,enabled,1,0,5
+rule_952,2024-06-04T00:00:00,2024-06-18T00:00:00,1,Availability,Database Performance Loss,2,1,2968866,availability,2,True,2024-06-28T00:00:00,8,True,enabled,4,2,3
+rule_953,2024-06-16T00:00:00,2024-06-20T00:00:00,4,Performance,Best Practice,1,1,5064903,hardening,2,True,2024-06-30T00:00:00,7,True,enabled,5,3,2
+rule_954,2024-06-14T00:00:00,2024-06-20T00:00:00,3,Stability,Database Performance Loss,2,1,5437497,performance,1,False,2024-06-25T00:00:00,8,True,enabled,2,1,5
+rule_955,2024-06-17T00:00:00,2024-06-22T00:00:00,2,Security,Database Performance Loss,2,1,6064985,logging,2,False,2024-06-30T00:00:00,10,True,enabled,5,5,3
+rule_956,2024-06-01T00:00:00,2024-06-04T00:00:00,1,Availability,Decreased Security,2,4,9539773,database,1,True,2024-06-28T00:00:00,3,True,enabled,5,0,0
+rule_957,2024-06-24T00:00:00,2024-06-29T00:00:00,4,Performance,Database Performance Loss,2,1,9747423,tuning,0,True,2024-06-24T00:00:00,6,True,enabled,3,4,5
+rule_958,2024-06-12T00:00:00,2024-06-30T00:00:00,1,Availability,Best Practice,1,3,6818602,stability,0,False,2024-06-25T00:00:00,3,True,enabled,5,2,3
+rule_959,2024-06-04T00:00:00,2024-06-17T00:00:00,3,Stability,Best Practice,1,2,4154843,security,3,False,2024-06-09T00:00:00,9,True,enabled,3,5,4
+rule_960,2024-06-12T00:00:00,2024-06-28T00:00:00,4,Performance,Best Practice,1,5,9780269,performance,3,True,2024-06-25T00:00:00,3,True,enabled,3,2,0
+rule_961,2024-06-22T00:00:00,2024-06-25T00:00:00,3,Stability,Database Performance Loss,2,4,2474169,performance,1,True,2024-06-27T00:00:00,3,True,enabled,5,5,1
+rule_962,2024-06-02T00:00:00,2024-06-10T00:00:00,2,Security,Database Performance Loss,2,5,7345365,performance,2,False,2024-06-22T00:00:00,5,True,enabled,5,2,4
+rule_963,2024-06-18T00:00:00,2024-06-25T00:00:00,1,Availability,Best Practice,1,3,8302343,hardening,3,True,2024-06-26T00:00:00,4,True,enabled,3,2,5
+rule_964,2024-06-23T00:00:00,2024-06-23T00:00:00,2,Security,Decreased Security,2,2,4660610,performance,3,True,2024-06-23T00:00:00,6,True,enabled,3,5,4
+rule_965,2024-06-29T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,2,7868383,logging,3,False,2024-06-29T00:00:00,5,True,enabled,2,2,4
+rule_966,2024-06-05T00:00:00,2024-06-29T00:00:00,1,Availability,Best Practice,1,1,6798020,database,3,False,2024-06-18T00:00:00,8,True,enabled,5,0,4
+rule_967,2024-06-02T00:00:00,2024-06-14T00:00:00,2,Security,Best Practice,1,2,7760419,performance,0,True,2024-06-30T00:00:00,4,True,enabled,5,3,3
+rule_968,2024-06-20T00:00:00,2024-06-20T00:00:00,4,Performance,Database Performance Loss,2,1,3564773,performance,0,False,2024-06-30T00:00:00,3,True,enabled,2,2,4
+rule_969,2024-06-16T00:00:00,2024-06-17T00:00:00,3,Stability,Best Practice,1,2,7623380,performance,2,True,2024-06-28T00:00:00,2,True,enabled,1,0,4
+rule_970,2024-06-08T00:00:00,2024-06-15T00:00:00,1,Availability,Decreased Security,2,5,8427501,hardening,2,True,2024-06-26T00:00:00,5,True,enabled,3,0,5
+rule_971,2024-06-15T00:00:00,2024-06-27T00:00:00,2,Security,Best Practice,1,4,8793985,performance,1,False,2024-06-23T00:00:00,5,True,enabled,2,5,4
+rule_972,2024-06-04T00:00:00,2024-06-26T00:00:00,1,Availability,Best Practice,1,5,6847569,performance,2,True,2024-06-13T00:00:00,10,True,enabled,2,1,0
+rule_973,2024-06-12T00:00:00,2024-06-16T00:00:00,1,Availability,Best Practice,1,1,1504019,security,0,False,2024-06-30T00:00:00,9,True,enabled,1,2,4
+rule_974,2024-06-14T00:00:00,2024-06-22T00:00:00,2,Security,Database Performance Loss,2,1,9887514,tuning,3,False,2024-06-29T00:00:00,7,True,enabled,5,0,3
+rule_975,2024-06-12T00:00:00,2024-06-24T00:00:00,1,Availability,Best Practice,1,5,2198215,availability,1,False,2024-06-23T00:00:00,7,True,enabled,5,1,0
+rule_976,2024-06-09T00:00:00,2024-06-20T00:00:00,4,Performance,Database Performance Loss,2,2,3087265,logging,0,False,2024-06-09T00:00:00,7,True,enabled,3,1,3
+rule_977,2024-06-14T00:00:00,2024-06-15T00:00:00,4,Performance,Best Practice,1,3,1797804,hardening,2,True,2024-06-20T00:00:00,5,True,enabled,1,3,5
+rule_978,2024-06-27T00:00:00,2024-06-29T00:00:00,2,Security,Best Practice,1,2,1067778,availability,3,True,2024-06-27T00:00:00,3,True,enabled,1,5,4
+rule_979,2024-06-01T00:00:00,2024-06-08T00:00:00,3,Stability,Best Practice,1,4,9096173,hardening,2,False,2024-06-20T00:00:00,7,True,enabled,3,0,4
+rule_980,2024-06-16T00:00:00,2024-06-30T00:00:00,4,Performance,Best Practice,1,1,2951758,availability,2,False,2024-06-26T00:00:00,3,True,enabled,1,5,5
+rule_981,2024-06-07T00:00:00,2024-06-18T00:00:00,2,Security,Best Practice,1,3,8057479,availability,0,True,2024-06-23T00:00:00,6,True,enabled,5,2,0
+rule_982,2024-06-28T00:00:00,2024-06-30T00:00:00,3,Stability,Database Performance Loss,2,4,5945216,hardening,3,False,2024-06-29T00:00:00,7,True,enabled,4,4,5
+rule_983,2024-06-03T00:00:00,2024-06-12T00:00:00,2,Security,Best Practice,1,2,3977664,security,1,False,2024-06-17T00:00:00,5,True,enabled,1,4,1
+rule_984,2024-06-22T00:00:00,2024-06-25T00:00:00,2,Security,Decreased Security,2,4,9240445,performance,2,True,2024-06-24T00:00:00,6,True,enabled,2,0,1
+rule_985,2024-06-30T00:00:00,2024-06-30T00:00:00,1,Availability,Database Performance Loss,2,3,3056822,tuning,3,False,2024-06-30T00:00:00,3,True,enabled,3,1,3
+rule_986,2024-06-23T00:00:00,2024-06-26T00:00:00,3,Stability,Best Practice,1,1,8501306,hardening,3,True,2024-06-26T00:00:00,8,True,enabled,2,1,3
+rule_987,2024-06-13T00:00:00,2024-06-29T00:00:00,4,Performance,Best Practice,1,5,4129887,logging,0,False,2024-06-24T00:00:00,10,True,enabled,3,2,5
+rule_988,2024-06-19T00:00:00,2024-06-28T00:00:00,4,Performance,Decreased Security,2,5,3148691,stability,1,True,2024-06-23T00:00:00,8,True,enabled,2,0,2
+rule_989,2024-06-30T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,3,2707607,availability,3,True,2024-06-30T00:00:00,5,True,enabled,2,4,2
+rule_990,2024-06-10T00:00:00,2024-06-20T00:00:00,3,Stability,Best Practice,1,3,2225342,hardening,3,False,2024-06-23T00:00:00,3,True,enabled,4,3,1
+rule_991,2024-06-21T00:00:00,2024-06-22T00:00:00,2,Security,Best Practice,1,3,2814601,availability,3,False,2024-06-26T00:00:00,4,True,enabled,5,2,0
+rule_992,2024-06-30T00:00:00,2024-06-30T00:00:00,2,Security,Decreased Security,2,3,4127773,performance,0,True,2024-06-30T00:00:00,8,True,enabled,3,0,0
+rule_993,2024-06-01T00:00:00,2024-06-06T00:00:00,1,Availability,Decreased Security,2,4,2441318,stability,3,False,2024-06-16T00:00:00,2,True,enabled,5,5,2
+rule_994,2024-06-01T00:00:00,2024-06-07T00:00:00,4,Performance,Database Performance Loss,2,1,9068997,performance,3,True,2024-06-04T00:00:00,6,True,enabled,4,0,4
+rule_995,2024-06-22T00:00:00,2024-06-26T00:00:00,3,Stability,Database Performance Loss,2,5,7611908,security,3,True,2024-06-29T00:00:00,4,True,enabled,3,3,2
+rule_996,2024-06-12T00:00:00,2024-06-29T00:00:00,1,Availability,Decreased Security,2,5,8868786,performance,3,True,2024-06-15T00:00:00,10,True,enabled,1,1,3
+rule_997,2024-06-24T00:00:00,2024-06-24T00:00:00,2,Security,Database Performance Loss,2,1,2035119,performance,0,True,2024-06-28T00:00:00,10,True,enabled,4,5,4
+rule_998,2024-06-01T00:00:00,2024-06-19T00:00:00,3,Stability,Decreased Security,2,5,5050805,stability,3,False,2024-06-15T00:00:00,9,True,enabled,4,3,1
+rule_999,2024-06-01T00:00:00,2024-06-27T00:00:00,2,Security,Decreased Security,2,4,7939260,logging,1,False,2024-06-08T00:00:00,9,True,enabled,2,0,2
