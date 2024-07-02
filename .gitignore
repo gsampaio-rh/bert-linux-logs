@@ -170,3 +170,7 @@ fine-tuned-bert
 fine-tuned-bert-insights
 
 results
+
+logs/
+
+pytorch_hf_nlp_model
