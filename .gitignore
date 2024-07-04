@@ -169,8 +169,12 @@ fine-tuned-bert
 
 fine-tuned-bert-insights
 
+pytorch_hf_nlp_model
+
 results
 
 logs/
 
-pytorch_hf_nlp_model
+*.pth
+
+.conda
