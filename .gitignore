@@ -178,3 +178,5 @@ logs/
 *.pth
 
 .conda
+
+models/fine-tuned-bert-log-classifier-model
